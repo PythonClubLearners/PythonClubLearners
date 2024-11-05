@@ -1,6 +1,6 @@
 {
   "vaultName": "RMP",
-  "lastExport": 1730192489586,
+  "lastExport": 1730805691861,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -13,6 +13,8 @@
     "Задания/Практика №4. Использование ветвления..md",
     "Задания/Практика №5. Вывод таблицы умножения с помощью цикла `for`..md",
     "Задания/Практика №6. Работа с строками..md",
+    "Задания/Практика №7. Простой счётчик React..md",
+    "Задания/Практика №8. Игра кликер..md",
     "Как сделать/Запуск js скрипта в Node.js.md",
     "Как сделать/Как менять стиль элемента через JS.md",
     "Как сделать/Как открыть консоль разработчика в браузерах.md",
@@ -43,6 +45,7 @@
     "материалы/Pasted image 20241022141906.png",
     "материалы/Pasted image 20241022141930.png",
     "материалы/Pasted image 20241022153908.png",
+    "материалы/Pasted image 20241105121853.png",
     "Темы/Секция 1. JavaScript/Тема №1. Основы.md",
     "Темы/Секция 1. JavaScript/Тема №2. Создание и использование переменных в JavaScript.md",
     "Темы/Секция 1. JavaScript/Тема №3. Работа с примитивными типами данных JS.md",
@@ -52,6 +55,7 @@
     "Темы/Секция 1. JavaScript/Тема №7. Функции.md",
     "Темы/Секция 2. React/Тема №8. Основы React.md",
     "Темы/Секция 2. React/Тема №9. Хранение данных React.md",
+    "Темы/Секция 2. React/Тема №10. Массивы, объекты и работа с ними..md",
     "Теория/Секция 1. JavaScript/Операторы/Арифметические операторы.md",
     "Теория/Секция 1. JavaScript/Операторы/Логические операторы.md",
     "Теория/Секция 1. JavaScript/Операторы/Операторы присваивания.md",
@@ -103,23 +107,36 @@
     "Теория/Секция 1. JavaScript/Циклы/for конструкция.md",
     "Теория/Секция 1. JavaScript/HTML/Как работают цвета RGB.md",
     "Теория/Секция 1. JavaScript/HTML/Структура HTML.md",
+    "Теория/Секция 2. React/Другое/Подробнее про ...rest оператор.md",
+    "Теория/Секция 2. React/Другое/Структура React приложения.md",
+    "Теория/Секция 2. React/Компоненты React/Интеграция JS кода в JSX.md",
     "Теория/Секция 2. React/Компоненты React/Как создать компонент React.md",
     "Теория/Секция 2. React/Компоненты React/Компоненты React.md",
     "Теория/Секция 2. React/Компоненты React/Правила наименований компонентов.md",
     "Теория/Секция 2. React/Компоненты React/Что такое props.md",
+    "Теория/Секция 2. React/Про данные/Глобальная область видимости.md",
     "Теория/Секция 2. React/Про данные/Использование контекста.md",
     "Теория/Секция 2. React/Про данные/Какие существуют способы хранения данных в React.md",
+    "Теория/Секция 2. React/Про данные/Каррированные функции.md",
+    "Теория/Секция 2. React/Про данные/Массивы в JS.md",
     "Теория/Секция 2. React/Про данные/Область видимости.md",
+    "Теория/Секция 2. React/Про данные/Область видимости блока.md",
+    "Теория/Секция 2. React/Про данные/Объекты в JS.md",
+    "Теория/Секция 2. React/Про данные/Операция распаковки массивов.md",
+    "Теория/Секция 2. React/Про данные/Операция распаковки объектов.md",
+    "Теория/Секция 2. React/Про данные/Особенности области видимости переменных var.md",
+    "Теория/Секция 2. React/Про данные/Функциональная область видимости.md",
     "Теория/Секция 2. React/Про данные/Хранение состояний с помощью хука useState.md",
+    "Теория/Секция 2. React/Про данные/Closure (замыкание).md",
     "Теория/Секция 2. React/Про данные/cookie файлы.md",
     "Теория/Секция 2. React/Про данные/localStorage.md",
     "Теория/Секция 2. React/Термины/Инкапсуляция.md",
     "Теория/Секция 2. React/Термины/Cинтаксический сахар.md",
     "Теория/Секция 2. React/Термины/JSX.md",
     "Теория/Секция 2. React/Термины/React.md",
-    "Теория/Секция 2. React/Структура React приложения.md",
-    "Теория/Секция 2. React/Цикл for…in.md",
-    "Теория/Секция 2. React/Цикл for…of.md",
+    "Теория/Секция 2. React/For/Цикл for…in.md",
+    "Теория/Секция 2. React/For/Цикл for…of.md",
+    "Теория/Секция 2. React/For/for конструкция полезная для массивов и объектов.md",
     "index.md",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -154,127 +171,127 @@
   ],
   "fileInfo": {
     "материалы/Pasted image 20240909175736.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 207187,
       "exportedPath": "материалы/Pasted image 20240909175736.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240921145346.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 24281,
       "exportedPath": "материалы/Pasted image 20240921145346.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240921145741.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 15520,
       "exportedPath": "материалы/Pasted image 20240921145741.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240921145945.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 45332,
       "exportedPath": "материалы/Pasted image 20240921145945.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240921150055.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 32859,
       "exportedPath": "материалы/Pasted image 20240921150055.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240921150112.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3942,
       "exportedPath": "материалы/Pasted image 20240921150112.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240921150128.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3984,
       "exportedPath": "материалы/Pasted image 20240921150128.png",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
@@ -286,651 +303,753 @@
       "dependencies": []
     },
     "Задания/Практика №0. Простое использование JS в консоли браузера.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1606,
       "exportedPath": "Задания/Практика №0. Простое использование JS в консоли браузера.html",
       "dependencies": []
     },
     "Задания/Практика №1. Использование JS в небольшой веб странице HTML.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 10319,
       "exportedPath": "Задания/Практика №1. Использование JS в небольшой веб странице HTML.html",
       "dependencies": []
     },
     "Задания/Практика №2. Вывод информации о себе в консоль.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1300,
       "exportedPath": "Задания/Практика №2. Вывод информации о себе в консоль.html",
       "dependencies": []
     },
     "Задания/Практика №3. Преобразование типов.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 915,
       "exportedPath": "Задания/Практика №3. Преобразование типов.html",
       "dependencies": []
     },
     "Как сделать/Запуск js скрипта в Node.js.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 803,
       "exportedPath": "Как сделать/Запуск js скрипта в Node.js.html",
       "dependencies": []
     },
     "Как сделать/Как менять стиль элемента через JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 753,
       "exportedPath": "Как сделать/Как менять стиль элемента через JS.html",
       "dependencies": []
     },
     "Как сделать/Как открыть консоль разработчика в браузерах.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 468,
       "exportedPath": "Как сделать/Как открыть консоль разработчика в браузерах.html",
       "dependencies": []
     },
     "Как сделать/Как получить тип данных из переменной (или значения).md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 905,
       "exportedPath": "Как сделать/Как получить тип данных из переменной (или значения).html",
       "dependencies": []
     },
     "Как сделать/Как создать файл js или html.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 831,
       "exportedPath": "Как сделать/Как создать файл js или html.html",
       "dependencies": []
     },
     "Как сделать/Подключение кнопок в HTML.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2764,
       "exportedPath": "Как сделать/Подключение кнопок в HTML.html",
       "dependencies": []
     },
     "Как сделать/Получение HTML элемента через JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1524,
       "exportedPath": "Как сделать/Получение HTML элемента через JS.html",
       "dependencies": []
     },
     "Как сделать/Установка Node.JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1047,
       "exportedPath": "Как сделать/Установка Node.JS.html",
       "dependencies": []
     },
     "материалы/Pasted image 20240923235323.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 400632,
       "exportedPath": "материалы/Pasted image 20240923235323.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240927201828.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 715,
       "exportedPath": "материалы/Pasted image 20240927201828.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240927202422.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 82462,
       "exportedPath": "материалы/Pasted image 20240927202422.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240927202457.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 22723,
       "exportedPath": "материалы/Pasted image 20240927202457.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240928221620.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 24101,
       "exportedPath": "материалы/Pasted image 20240928221620.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240928222021.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 12312,
       "exportedPath": "материалы/Pasted image 20240928222021.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240928222139.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 78566,
       "exportedPath": "материалы/Pasted image 20240928222139.png",
       "dependencies": []
     },
     "материалы/Pasted image 20240928222237.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 621,
       "exportedPath": "материалы/Pasted image 20240928222237.png",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 271,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "Задания/Практика №4. Использование ветвления..md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1966,
       "exportedPath": "Задания/Практика №4. Использование ветвления..html",
       "dependencies": []
     },
     "Задания/Практика №5. Вывод таблицы умножения с помощью цикла `for`..md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 384,
       "exportedPath": "Задания/Практика №5. Вывод таблицы умножения с помощью цикла `for`..html",
       "dependencies": []
     },
     "Задания/Практика №6. Работа с строками..md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2348,
       "exportedPath": "Задания/Практика №6. Работа с строками..html",
       "dependencies": []
     },
     "Как сделать/Как создать проект React.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2235,
       "exportedPath": "Как сделать/Как создать проект React.html",
       "dependencies": []
     },
     "Как сделать/Правила принятия заданий.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2287,
       "exportedPath": "Как сделать/Правила принятия заданий.html",
       "dependencies": []
     },
     "Как сделать/Способ разработки через онлайн сервис.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 498,
       "exportedPath": "Как сделать/Способ разработки через онлайн сервис.html",
       "dependencies": []
     },
     "материалы/Pasted image 20241022141801.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 12333,
       "exportedPath": "материалы/Pasted image 20241022141801.png",
       "dependencies": []
     },
     "материалы/Pasted image 20241022141906.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 12578,
       "exportedPath": "материалы/Pasted image 20241022141906.png",
       "dependencies": []
     },
     "материалы/Pasted image 20241022141930.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 12921,
       "exportedPath": "материалы/Pasted image 20241022141930.png",
       "dependencies": []
     },
     "материалы/Pasted image 20241022153908.png": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 73383,
       "exportedPath": "материалы/Pasted image 20241022153908.png",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №1. Основы.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 836,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №1. Основы.html",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №2. Создание и использование переменных в JavaScript.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 686,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №2. Создание и использование переменных в JavaScript.html",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №3. Работа с примитивными типами данных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 951,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №3. Работа с примитивными типами данных JS.html",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №4. Операции и операторы в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 684,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №4. Операции и операторы в JS.html",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №5. Ветвление в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 410,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №5. Ветвление в JS.html",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №6. Циклы в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 510,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №6. Циклы в JS.html",
       "dependencies": []
     },
     "Темы/Секция 1. JavaScript/Тема №7. Функции.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 623,
       "exportedPath": "Темы/Секция 1. JavaScript/Тема №7. Функции.html",
       "dependencies": []
     },
     "Темы/Секция 2. React/Тема №8. Основы React.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 464,
       "exportedPath": "Темы/Секция 2. React/Тема №8. Основы React.html",
       "dependencies": []
     },
     "Темы/Секция 2. React/Тема №9. Хранение данных React.md": {
-      "modifiedTime": 1730192489586,
-      "sourceSize": 437,
+      "modifiedTime": 1730805691861,
+      "sourceSize": 597,
       "exportedPath": "Темы/Секция 2. React/Тема №9. Хранение данных React.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Арифметические операторы.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 4367,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Арифметические операторы.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Логические операторы.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2184,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Логические операторы.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Операторы присваивания.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 834,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Операторы присваивания.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Операторы сравнения.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3214,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Операторы сравнения.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Приоритет выполнения операторов.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3614,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Приоритет выполнения операторов.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Тернарный оператор.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3755,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Тернарный оператор.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/Что такое операции и операторы в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 632,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/Что такое операции и операторы в JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/switch конструкция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 4729,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/switch конструкция.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Операторы/while конструкция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2967,
       "exportedPath": "Теория/Секция 1. JavaScript/Операторы/while конструкция.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Основы/Комментарии JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1876,
       "exportedPath": "Теория/Секция 1. JavaScript/Основы/Комментарии JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Основы/Начальное понимание синтаксиса JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1099,
       "exportedPath": "Теория/Секция 1. JavaScript/Основы/Начальное понимание синтаксиса JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Основы/if-else конструкция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 5626,
       "exportedPath": "Теория/Секция 1. JavaScript/Основы/if-else конструкция.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Переменные/Инициализация переменных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 354,
       "exportedPath": "Теория/Секция 1. JavaScript/Переменные/Инициализация переменных JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Переменные/Объявление переменных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2361,
       "exportedPath": "Теория/Секция 1. JavaScript/Переменные/Объявление переменных JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Переменные/Переменные JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3153,
       "exportedPath": "Теория/Секция 1. JavaScript/Переменные/Переменные JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Переменные/Правила и рекомендации по созданию названий переменных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 6185,
       "exportedPath": "Теория/Секция 1. JavaScript/Переменные/Правила и рекомендации по созданию названий переменных JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Переменные/Присваивание переменных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1405,
       "exportedPath": "Теория/Секция 1. JavaScript/Переменные/Присваивание переменных JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Интерполяция JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1891,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Интерполяция JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Итерация.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1662,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Итерация.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Список ключевых и зарезервированных слов JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 698,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Список ключевых и зарезервированных слов JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Что такое ключевые слова.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1042,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Что такое ключевые слова.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Что такое псевдокод и зачем он нужен.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2878,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Что такое псевдокод и зачем он нужен.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Что такое циклы..md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1275,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Что такое циклы..html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/JavaScript.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 5670,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/JavaScript.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Термины/Node.js.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 732,
       "exportedPath": "Теория/Секция 1. JavaScript/Термины/Node.js.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Неявное приведение типов с помощью арифметического оператора сложения.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1077,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Неявное приведение типов с помощью арифметического оператора сложения.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Неявные преобразование типов JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 5350,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Неявные преобразование типов JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Преобразование типов данных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 795,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Преобразование типов данных JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Разница между не пустым значением, нулем, пустотой и неизвестностью.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 668,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Разница между не пустым значением, нулем, пустотой и неизвестностью.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Тип данных - булево JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 683,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Тип данных - булево JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Тип данных - ничего и неизвестность.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2483,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Тип данных - ничего и неизвестность.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Тип данных - строка JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1002,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Тип данных - строка JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Тип данных - число JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 4420,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Тип данных - число JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Типы данных JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1114,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Типы данных JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Явное преобразования данных к логическому типу с помощью Boolean в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1685,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Явное преобразования данных к логическому типу с помощью Boolean в JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Явное преобразования данных к строковому типу с помощью String в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3176,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Явное преобразования данных к строковому типу с помощью String в JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Явное преобразования данных к числовому типу с помощью Number в JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1370,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Явное преобразования данных к числовому типу с помощью Number в JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Типы данных/Явные преобразование примитивных типов JS.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 697,
       "exportedPath": "Теория/Секция 1. JavaScript/Типы данных/Явные преобразование примитивных типов JS.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Возврат из функции return.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2746,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Возврат из функции return.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Объявление функций.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 452,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Объявление функций.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Параметры функций.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3224,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Параметры функций.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Рекурсивные функции.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3309,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Рекурсивные функции.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Стрелочная функция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1226,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Стрелочная функция.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Функциональное выражение.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1486,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Функциональное выражение.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Функциональное объявление.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1021,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Функциональное объявление.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Функции/Что такое функции.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1368,
       "exportedPath": "Теория/Секция 1. JavaScript/Функции/Что такое функции.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Циклы/Прерывание цикла ключевыми словами.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1585,
       "exportedPath": "Теория/Секция 1. JavaScript/Циклы/Прерывание цикла ключевыми словами.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Циклы/do...while конструкция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3152,
       "exportedPath": "Теория/Секция 1. JavaScript/Циклы/do...while конструкция.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/Циклы/for конструкция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2160,
       "exportedPath": "Теория/Секция 1. JavaScript/Циклы/for конструкция.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/HTML/Как работают цвета RGB.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3356,
       "exportedPath": "Теория/Секция 1. JavaScript/HTML/Как работают цвета RGB.html",
       "dependencies": []
     },
     "Теория/Секция 1. JavaScript/HTML/Структура HTML.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3038,
       "exportedPath": "Теория/Секция 1. JavaScript/HTML/Структура HTML.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Компоненты React/Как создать компонент React.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1018,
       "exportedPath": "Теория/Секция 2. React/Компоненты React/Как создать компонент React.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Компоненты React/Компоненты React.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1934,
       "exportedPath": "Теория/Секция 2. React/Компоненты React/Компоненты React.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Компоненты React/Правила наименований компонентов.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1659,
       "exportedPath": "Теория/Секция 2. React/Компоненты React/Правила наименований компонентов.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Компоненты React/Что такое props.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 2479,
       "exportedPath": "Теория/Секция 2. React/Компоненты React/Что такое props.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Про данные/Использование контекста.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 4442,
       "exportedPath": "Теория/Секция 2. React/Про данные/Использование контекста.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Про данные/Какие существуют способы хранения данных в React.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 921,
       "exportedPath": "Теория/Секция 2. React/Про данные/Какие существуют способы хранения данных в React.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Про данные/Область видимости.md": {
-      "modifiedTime": 1730192489586,
-      "sourceSize": 771,
+      "modifiedTime": 1730805691861,
+      "sourceSize": 765,
       "exportedPath": "Теория/Секция 2. React/Про данные/Область видимости.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Про данные/Хранение состояний с помощью хука useState.md": {
-      "modifiedTime": 1730192489586,
-      "sourceSize": 3706,
+      "modifiedTime": 1730805691861,
+      "sourceSize": 5966,
       "exportedPath": "Теория/Секция 2. React/Про данные/Хранение состояний с помощью хука useState.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Про данные/cookie файлы.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 4968,
       "exportedPath": "Теория/Секция 2. React/Про данные/cookie файлы.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Про данные/localStorage.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 4397,
       "exportedPath": "Теория/Секция 2. React/Про данные/localStorage.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Термины/Инкапсуляция.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3006,
       "exportedPath": "Теория/Секция 2. React/Термины/Инкапсуляция.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Термины/Cинтаксический сахар.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 1660,
       "exportedPath": "Теория/Секция 2. React/Термины/Cинтаксический сахар.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Термины/JSX.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3164,
       "exportedPath": "Теория/Секция 2. React/Термины/JSX.html",
       "dependencies": []
     },
     "Теория/Секция 2. React/Термины/React.md": {
-      "modifiedTime": 1730192489586,
+      "modifiedTime": 1730805691861,
       "sourceSize": 3347,
       "exportedPath": "Теория/Секция 2. React/Термины/React.html",
       "dependencies": []
     },
-    "Теория/Секция 2. React/Структура React приложения.md": {
-      "modifiedTime": 1730192489586,
+    "Задания/Практика №7. Простой счётчик React..md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 1294,
+      "exportedPath": "Задания/Практика №7. Простой счётчик React..html",
+      "dependencies": []
+    },
+    "Задания/Практика №8. Игра кликер..md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 1631,
+      "exportedPath": "Задания/Практика №8. Игра кликер..html",
+      "dependencies": []
+    },
+    "материалы/Pasted image 20241105121853.png": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 262310,
+      "exportedPath": "материалы/Pasted image 20241105121853.png",
+      "dependencies": []
+    },
+    "Темы/Секция 2. React/Тема №10. Массивы, объекты и работа с ними..md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 620,
+      "exportedPath": "Темы/Секция 2. React/Тема №10. Массивы, объекты и работа с ними..html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Другое/Подробнее про ...rest оператор.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 2194,
+      "exportedPath": "Теория/Секция 2. React/Другое/Подробнее про ...rest оператор.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Другое/Структура React приложения.md": {
+      "modifiedTime": 1730805691861,
       "sourceSize": 3198,
-      "exportedPath": "Теория/Секция 2. React/Структура React приложения.html",
+      "exportedPath": "Теория/Секция 2. React/Другое/Структура React приложения.html",
       "dependencies": []
     },
-    "Теория/Секция 2. React/Цикл for…in.md": {
-      "modifiedTime": 1730192489586,
+    "Теория/Секция 2. React/Компоненты React/Интеграция JS кода в JSX.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 1171,
+      "exportedPath": "Теория/Секция 2. React/Компоненты React/Интеграция JS кода в JSX.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Глобальная область видимости.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 3932,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Глобальная область видимости.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Каррированные функции.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 2984,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Каррированные функции.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Массивы в JS.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 4328,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Массивы в JS.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Область видимости блока.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 1897,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Область видимости блока.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Объекты в JS.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 3310,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Объекты в JS.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Операция распаковки массивов.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 1679,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Операция распаковки массивов.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Операция распаковки объектов.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 2701,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Операция распаковки объектов.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Особенности области видимости переменных var.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 4167,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Особенности области видимости переменных var.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Функциональная область видимости.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 3708,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Функциональная область видимости.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/Про данные/Closure (замыкание).md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 4238,
+      "exportedPath": "Теория/Секция 2. React/Про данные/Closure (замыкание).html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/For/Цикл for…in.md": {
+      "modifiedTime": 1730805691861,
       "sourceSize": 2683,
-      "exportedPath": "Теория/Секция 2. React/Цикл for…in.html",
+      "exportedPath": "Теория/Секция 2. React/For/Цикл for…in.html",
       "dependencies": []
     },
-    "Теория/Секция 2. React/Цикл for…of.md": {
-      "modifiedTime": 1730192489586,
+    "Теория/Секция 2. React/For/Цикл for…of.md": {
+      "modifiedTime": 1730805691861,
       "sourceSize": 2688,
-      "exportedPath": "Теория/Секция 2. React/Цикл for…of.html",
+      "exportedPath": "Теория/Секция 2. React/For/Цикл for…of.html",
+      "dependencies": []
+    },
+    "Теория/Секция 2. React/For/for конструкция полезная для массивов и объектов.md": {
+      "modifiedTime": 1730805691861,
+      "sourceSize": 288,
+      "exportedPath": "Теория/Секция 2. React/For/for конструкция полезная для массивов и объектов.html",
       "dependencies": []
     }
   }
