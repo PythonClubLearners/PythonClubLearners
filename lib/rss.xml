@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RMP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>RMP</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 14 Jan 2025 08:08:40 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 14 Jan 2025 08:08:28 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Практика №0. Простое использование JS в консоли браузера]]></title><description><![CDATA[<a class="tag" href="?query=tag:ТемаОсновы" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаОсновы</a> <a class="tag" href="?query=tag:Задание" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Задание</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RMP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>RMP</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 24 Jan 2025 18:11:40 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 24 Jan 2025 18:11:28 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Практика №0. Простое использование JS в консоли браузера]]></title><description><![CDATA[<a class="tag" href="?query=tag:ТемаОсновы" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаОсновы</a> <a class="tag" href="?query=tag:Задание" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Задание</a> 
  <br>Так как JS, в первую очередь, используется в браузере, то самое очевидное место где можно сразу опробовать этот язык - браузер.<br>В браузерах обычно есть консоль разработчика, где, собственно, используется JS.<br><a data-href="Как открыть консоль разработчика в браузерах" href="Как сделать\Как открыть консоль разработчика в браузерах.html" class="internal-link" target="_self" rel="noopener nofollow">Как открыть консоль разработчика в браузерах</a><br>Давайте попробуем немного поиграться.<br>Вот несколько примеров кодов, которые можно ввести в консоль разработчика браузера:<br>// Вывести сообщение в консоль
 console.log('Hello world!');
 
@@ -256,7 +256,157 @@ console.log(typeof boolean); // Вывод: "boolean"
 console.log(typeof object); // Вывод: "object"
 console.log(typeof array); // Вывод: "object"
 <br>Есть небольшая особенность с null.<br>console.log(typeof null) // вернет object
-<br>Это историческое поведение, которое не изменилось по соображениям обратной совместимости.]]></description><link>Как сделать\Как получить тип данных из переменной (или значения).html</link><guid isPermaLink="false">Как сделать/Как получить тип данных из переменной (или значения).md</guid><pubDate>Sat, 28 Sep 2024 19:01:35 GMT</pubDate></item><item><title><![CDATA[Как создать проект React]]></title><description><![CDATA[ 
+<br>Это историческое поведение, которое не изменилось по соображениям обратной совместимости.]]></description><link>Как сделать\Как получить тип данных из переменной (или значения).html</link><guid isPermaLink="false">Как сделать/Как получить тип данных из переменной (или значения).md</guid><pubDate>Sat, 28 Sep 2024 19:01:35 GMT</pubDate></item><item><title><![CDATA[Как создавать пользовательские хуки React]]></title><description><![CDATA[ 
+ <br>Создание пользовательских хуков в React — это мощный способ переиспользовать логику между компонентами, делая ваш код более чистым и поддерживаемым.<br>Имя пользовательского хука должно начинаться с&nbsp;use, например,&nbsp;useFetch,&nbsp;useCounter,&nbsp;useForm. Это соглашение React, которое позволяет ему корректно отслеживать работу хуков.<br>
+Пользовательский хук может внутри себя использовать другие хуки React, такие как&nbsp;useState,&nbsp;useEffect,&nbsp;useContext&nbsp;и т. д. <br>Хук должен возвращать значения (например, состояние, функции), которые вы хотите использовать в компонентах. Это может быть массив, объект или отдельное значение.<br>Цель хука — вынести общую логику (например, получение данных, управление состоянием) из компонентов в отдельную функцию, чтобы вы могли её повторно использовать.<br>Пользовательские хуки подчиняются тем же правилам, что и встроенные хуки React:<br>
+<br>Вызываются только внутри React-компонентов или других пользовательских хуков.
+<br>Вызываются всегда в одном и том же порядке при каждом рендере.
+<br>Хуки не хранят состояние между разными компонентами. Каждый компонент, использующий один и тот же хук, имеет свой собственный экземпляр состояния. <br>Разделяйте логику на небольшие, переиспользуемые хуки.<br>Когда их создавать?<br>
+<br>Когда у вас есть повторяющаяся логика, которую вы хотите использовать в разных компонентах.
+<br>Когда вы хотите отделить логику от UI-логики, делая компоненты чище.
+<br>Когда вы хотите абстрагировать работу с состоянием или побочными эффектами.
+<br><br>useCounter&nbsp;- простой счетчик<br>import { useState } from 'react';
+
+function useCounter(initialValue = 0) {
+  const [count, setCount] = useState(initialValue);
+
+  const increment = () =&gt; setCount(count + 1);
+  const decrement = () =&gt; setCount(count - 1);
+  const reset = () =&gt; setCount(initialValue);
+
+  return { count, increment, decrement, reset };
+}
+
+export default useCounter;
+<br>Как использовать в компоненте:<br>import React from 'react';
+import useCounter from './useCounter';
+
+function MyComponent() {
+  const { count, increment, decrement, reset } = useCounter(10); // Начальное значение 10
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Счетчик: {count}&lt;/p&gt;
+      &lt;button onClick={increment}&gt;Увеличить&lt;/button&gt;
+      &lt;button onClick={decrement}&gt;Уменьшить&lt;/button&gt;
+      &lt;button onClick={reset}&gt;Сбросить&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default MyComponent;
+<br>Разбор:<br>
+<br>useCounter&nbsp;принимает начальное значение (по умолчанию 0).
+<br>Использует&nbsp;useState&nbsp;для хранения значения счетчика.
+<br>Возвращает объект с текущим&nbsp;count&nbsp;и функциями для его изменения.
+<br>Компонент использует этот хук, распаковывая возвращенный объект.
+<br>2.&nbsp;useFetch&nbsp;- получение данных<br>import { useState, useEffect } from 'react';
+
+function useFetch(url) {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() =&gt; {
+    const fetchData = async () =&gt; {
+      try {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const result = await response.json();
+        setData(result);
+      } catch (err) {
+        setError(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [url]);
+
+  return { data, loading, error };
+}
+
+export default useFetch;
+<br>Как использовать в компоненте:<br>import React from 'react';
+import useFetch from './useFetch';
+
+function MyDataComponent() {
+  const { data, loading, error } = useFetch('https://example.com/example-endpoint');
+
+  if (loading) return &lt;p&gt;Загрузка...&lt;/p&gt;;
+  if (error) return &lt;p&gt;Ошибка: {error.message}&lt;/p&gt;;
+  if (!data) return null;
+
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Данные:&lt;/h1&gt;
+      &lt;pre&gt;{JSON.stringify(data, null, 2)}&lt;/pre&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default MyDataComponent;
+<br>Разбор:<br>
+<br>useFetch&nbsp;принимает&nbsp;url&nbsp;для запроса.
+<br>Использует&nbsp;useState&nbsp;для хранения данных, статуса загрузки и ошибок.
+<br>Использует&nbsp;useEffect&nbsp;для выполнения запроса при монтировании компонента (или изменении&nbsp;url).
+<br>Возвращает объект с данными, статусом загрузки и ошибками.
+<br>Компонент обрабатывает различные состояния (загрузка, ошибка, успешный запрос).
+<br>3.&nbsp;useLocalStorage&nbsp;- работа с Local Storage<br>import { useState, useEffect } from 'react';
+
+function useLocalStorage(key, initialValue) {
+  const [value, setValue] = useState(() =&gt; {
+    try {
+      const storedValue = localStorage.getItem(key);
+      return storedValue ? JSON.parse(storedValue) : initialValue;
+    } catch (error) {
+      console.error("Error getting item from local storage", error)
+      return initialValue
+    }
+  });
+
+
+  useEffect(() =&gt; {
+    try {
+        localStorage.setItem(key, JSON.stringify(value));
+      } catch (error){
+        console.error("Error setting item to local storage", error)
+      }
+  }, [key, value]);
+
+  return [value, setValue];
+}
+
+export default useLocalStorage;
+<br>Как использовать в компоненте:<br>import React from 'react';
+import useLocalStorage from './useLocalStorage';
+
+function SettingsComponent() {
+  const [theme, setTheme] = useLocalStorage('theme', 'light'); // Начальное значение 'light'
+
+  const toggleTheme = () =&gt; {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Текущая тема: {theme}&lt;/p&gt;
+      &lt;button onClick={toggleTheme}&gt;Сменить тему&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default SettingsComponent;
+<br>Разбор:<br>
+<br>useLocalStorage&nbsp;принимает ключ и начальное значение.
+<br>Использует&nbsp;useState&nbsp;для хранения значения, загружаемого из Local Storage или начального значения.
+<br>useEffect&nbsp;отслеживает изменение значения и сохраняет его в Local Storage.
+<br>Возвращает массив, как&nbsp;useState:&nbsp;[value, setValue].
+<br>Компонент использует хук для управления темой и сохраняет её между перезагрузками страницы.
+]]></description><link>Как сделать\Как создавать пользовательские хуки React.html</link><guid isPermaLink="false">Как сделать/Как создавать пользовательские хуки React.md</guid><pubDate>Fri, 24 Jan 2025 16:39:53 GMT</pubDate></item><item><title><![CDATA[Как создать проект React]]></title><description><![CDATA[ 
  <br>На самом деле, создать проект react не сложно, необходимо следовать следующим шагам:<br>Первое что вам необходимо сделать - проверить установлен ли Node.js.<br>
 Это можно сделать командой npm в терминале.<br>После чего, можете создать новый каталог (папку), и откройте консоль в том месте.<br>
 Переместится можно следующей командой:<br>cd полный/путь/к/директории
@@ -398,17 +548,29 @@ console.log(typeof array); // Вывод: "object"
 <br><a data-href="Подробнее про ...rest оператор" href="Теория\Секция 2. React\Другое\Подробнее про ...rest оператор.html" class="internal-link" target="_self" rel="noopener nofollow">Подробнее про ...rest оператор</a>
 <br><a data-href="Операция распаковки объектов" href="Теория\Секция 2. React\Про данные\Операция распаковки объектов.html" class="internal-link" target="_self" rel="noopener nofollow">Операция распаковки объектов</a>
 <br><a data-href="Практика №8. Игра кликер." href="Задания\Практика №8. Игра кликер..html" class="internal-link" target="_self" rel="noopener nofollow">Практика №8. Игра кликер.</a>
-<br>Следующая тема: <a data-href="Тема №11. Git, GitHub и списки элементов в React." href="Темы\Секция 2. React\Тема №11. Git, GitHub и списки элементов в React..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №11. Git, GitHub и списки элементов в React.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a> <a href=".?query=tag:ТемаМассивыОбъектыReact" class="tag" target="_blank" rel="noopener nofollow">#ТемаМассивыОбъектыReact</a>]]></description><link>Темы\Секция 2. React\Тема №10. Массивы, объекты и работа с ними..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №10. Массивы, объекты и работа с ними..md</guid><pubDate>Tue, 12 Nov 2024 04:53:29 GMT</pubDate></item><item><title><![CDATA[Тема №11. Git, GitHub и списки элементов в React.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> <a class="tag" href="?query=tag:ТемаМассивыОбъектыReact" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаМассивыОбъектыReact</a> 
- <br>В этой теме мы узнаем про массивы, объекты и как с ними работать.<br>План темы:<br>
+<br>Следующая тема: <a data-href="Тема №11. Git, GitHub и списки элементов в React." href="Темы\Секция 2. React\Тема №11. Git, GitHub и списки элементов в React..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №11. Git, GitHub и списки элементов в React.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a> <a href=".?query=tag:ТемаМассивыОбъектыReact" class="tag" target="_blank" rel="noopener nofollow">#ТемаМассивыОбъектыReact</a>]]></description><link>Темы\Секция 2. React\Тема №10. Массивы, объекты и работа с ними..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №10. Массивы, объекты и работа с ними..md</guid><pubDate>Tue, 12 Nov 2024 04:53:29 GMT</pubDate></item><item><title><![CDATA[Тема №11. Git, GitHub и списки элементов в React.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
+ <br>План темы:<br>
 <br><a data-href="Что такое система контроля версий" href="Теория\Секция 2. React\VCS\Что такое система контроля версий.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое система контроля версий</a>
 <br><a data-href="Git" href="Теория\Секция 2. React\VCS\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>
 <br><a data-href="GitHub" href="Теория\Секция 2. React\VCS\GitHub.html" class="internal-link" target="_self" rel="noopener nofollow">GitHub</a>
 <br><a data-href="Списки элементов в React" href="Теория\Секция 2. React\Другое\Списки элементов в React.html" class="internal-link" target="_self" rel="noopener nofollow">Списки элементов в React</a>
-<br>Следующая тема: <a data-href="Тема №12. События и Ref." href="Темы\Секция 2. React\Тема №12. События и Ref..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №12. События и Ref.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a> <a href=".?query=tag:ТемаМассивыОбъектыReact" class="tag" target="_blank" rel="noopener nofollow">#ТемаМассивыОбъектыReact</a>]]></description><link>Темы\Секция 2. React\Тема №11. Git, GitHub и списки элементов в React..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №11. Git, GitHub и списки элементов в React..md</guid><pubDate>Thu, 09 Jan 2025 18:26:01 GMT</pubDate></item><item><title><![CDATA[Тема №12. События и Ref.]]></title><description><![CDATA[ 
+<br>Следующая тема: <a data-href="Тема №12. События и Ref." href="Темы\Секция 2. React\Тема №12. События и Ref..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №12. События и Ref.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №11. Git, GitHub и списки элементов в React..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №11. Git, GitHub и списки элементов в React..md</guid><pubDate>Fri, 24 Jan 2025 16:28:41 GMT</pubDate></item><item><title><![CDATA[Тема №12. События и Ref.]]></title><description><![CDATA[ 
  <br>
 <br><a data-href="События React" href="Теория\Секция 2. React\Другое\События React.html" class="internal-link" target="_self" rel="noopener nofollow">События React</a>
 <br><a data-href="ref в React" href="Теория\Секция 2. React\Другое\ref в React.html" class="internal-link" target="_self" rel="noopener nofollow">ref в React</a>
-<br>Следующая тема: <a data-href="Тема №13. Hooks." href="Темы\Секция 2. React\Тема №13. Hooks..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №13. Hooks.</a>]]></description><link>Темы\Секция 2. React\Тема №12. События и Ref..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №12. События и Ref..md</guid><pubDate>Thu, 09 Jan 2025 18:27:54 GMT</pubDate></item><item><title><![CDATA[Арифметические операторы]]></title><description><![CDATA[ 
+<br>Следующая тема: <a data-href="Тема №13. Hooks." href="Темы\Секция 2. React\Тема №13. Hooks..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №13. Hooks.</a>]]></description><link>Темы\Секция 2. React\Тема №12. События и Ref..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №12. События и Ref..md</guid><pubDate>Thu, 09 Jan 2025 18:27:54 GMT</pubDate></item><item><title><![CDATA[Тема №13. Hooks.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
+ <br>
+<br><a data-href="Что такое hooks в react" href="Теория\Секция 2. React\Термины\Что такое hooks в react.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое hooks в react</a>
+<br><a data-href="Как создавать пользовательские хуки React" href="Как сделать\Как создавать пользовательские хуки React.html" class="internal-link" target="_self" rel="noopener nofollow">Как создавать пользовательские хуки React</a>
+<br>Следующая тема: <a data-href="Тема №14. Routers." href="Темы\Секция 2. React\Тема №14. Routers..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №14. Routers.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a> ]]></description><link>Темы\Секция 2. React\Тема №13. Hooks..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №13. Hooks..md</guid><pubDate>Fri, 24 Jan 2025 17:17:51 GMT</pubDate></item><item><title><![CDATA[Тема №14. Routers.]]></title><description><![CDATA[ 
+ <br>
+<br><a data-href="Основы работы с маршрутизацией React" href="Теория\Секция 2. React\Маршрутизация\Основы работы с маршрутизацией React.html" class="internal-link" target="_self" rel="noopener nofollow">Основы работы с маршрутизацией React</a>
+<br>Следующая тема: <a data-href="Тема №15. Запросы к API." href="Темы\Секция 2. React\Тема №15. Запросы к API..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №15. Запросы к API.</a>]]></description><link>Темы\Секция 2. React\Тема №14. Routers..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №14. Routers..md</guid><pubDate>Fri, 24 Jan 2025 17:39:31 GMT</pubDate></item><item><title><![CDATA[Тема №15. Запросы к API.]]></title><description><![CDATA[ 
+ <br>
+<br><a data-href="Что такое API" href="Теория\Секция 2. React\Термины\Что такое API.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое API</a>
+<br><a data-href="Асинхронность React" href="Теория\Секция 2. React\API\Асинхронность React.html" class="internal-link" target="_self" rel="noopener nofollow">Асинхронность React</a>
+<br><a data-href="Запросы fetch" href="Теория\Секция 2. React\API\Запросы fetch.html" class="internal-link" target="_self" rel="noopener nofollow">Запросы fetch</a>
+<br>Следующая тема: <a data-href="Тема №16. TypeScript." href="Темы\Секция 2. React\Тема №16. TypeScript..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №16. TypeScript.</a>]]></description><link>Темы\Секция 2. React\Тема №15. Запросы к API..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №15. Запросы к API..md</guid><pubDate>Fri, 24 Jan 2025 18:07:24 GMT</pubDate></item><item><title><![CDATA[Арифметические операторы]]></title><description><![CDATA[ 
  <br>Самые простые операторы - это арифметические. <br>1. Сложение (+):<br>
 <br>Пример:&nbsp;5 + 3 = 8
 <br>Описание:&nbsp;Складывает два операнда.
@@ -1967,7 +2129,252 @@ function ProductCard(props) {
 <br>App&nbsp;передает props&nbsp;name&nbsp;в&nbsp;Welcome&nbsp;и&nbsp;product&nbsp;в&nbsp;ProductCard.
 <br>Welcome&nbsp;использует&nbsp;props.name&nbsp;для отображения приветствия.
 <br>ProductCard&nbsp;использует&nbsp;props.product&nbsp;для отображения информации о товаре.
-<br>И еще, важная деталь - props являются “read-only” (только для чтения) в дочернем компоненте. Дочерний компонент не может изменять props, переданные из родительского компонента.<br>Подробнее с props мы познакомимся в следующих темах.]]></description><link>Теория\Секция 2. React\Компоненты React\Что такое props.html</link><guid isPermaLink="false">Теория/Секция 2. React/Компоненты React/Что такое props.md</guid><pubDate>Tue, 22 Oct 2024 11:05:36 GMT</pubDate></item><item><title><![CDATA[Глобальная область видимости]]></title><description><![CDATA[ 
+<br>И еще, важная деталь - props являются “read-only” (только для чтения) в дочернем компоненте. Дочерний компонент не может изменять props, переданные из родительского компонента.<br>Подробнее с props мы познакомимся в следующих темах.]]></description><link>Теория\Секция 2. React\Компоненты React\Что такое props.html</link><guid isPermaLink="false">Теория/Секция 2. React/Компоненты React/Что такое props.md</guid><pubDate>Tue, 22 Oct 2024 11:05:36 GMT</pubDate></item><item><title><![CDATA[Основы работы с маршрутизацией React]]></title><description><![CDATA[ 
+ <br>Маршрутизация (routing) в одностраничных приложениях (SPA) позволяет пользователям переходить между различными “страницами” или видами без перезагрузки всей страницы. React Router является популярным решением для реализации этого в React.<br>React Router&nbsp;– это библиотека для навигации в одностраничных приложениях (SPA) на React. Она позволяет пользователям перемещаться между разными представлениями или “страницами” вашего приложения, не перезагружая при этом всю веб-страницу.<br>Основные концепции и компоненты React Router:<br>
+<br>
+Роутеры (Routers):
+
+<br>BrowserRouter:
+
+<br>Использует HTML5 History API (pushState,&nbsp;replaceState) для навигации, что обеспечивает “чистые” URL без хэшей (#).
+<br>Рекомендуется&nbsp;для большинства случаев, когда у вас есть контроль над сервером и можете настроить его для правильной работы с SPA.
+
+
+<br>HashRouter:
+
+<br>Использует хэш (#) в URL для навигации. Например,&nbsp;http://example.com/#/about.
+<br>Подходит, если сервер не настроен для обработки маршрутов SPA, например, при развертывании на статическом хостинге.
+
+
+<br>Когда использовать&nbsp;BrowserRouter&nbsp;или&nbsp;HashRouter:
+
+<br>Если у вас есть сервер, который может перенаправлять все запросы на ваш index.html, используйте&nbsp;BrowserRouter.
+<br>Если у вас нет контроля над сервером, или вы развертываетесь на статическом хостинге без возможности перенаправления, используйте&nbsp;HashRouter.
+
+
+<br>Общая задача роутеров:
+
+<br>Роутер — это корневой компонент, который обеспечивает контекст для всех компонентов React Router внутри него.
+<br>Он устанавливает “слушателя” для URL, чтобы отслеживать изменения.
+<br>Вы должны обернуть ваш корневой компонент приложения (App&nbsp;обычно) в один из роутеров.
+
+
+
+
+<br>
+Routes&nbsp;и&nbsp;Route:
+
+<br>Routes:
+
+<br>Компонент, который оборачивает все ваши маршруты.
+<br>Обеспечивает, что&nbsp;только один&nbsp;маршрут будет отрисован за раз.
+<br>Он определяет, какой компонент должен быть отрисован в зависимости от текущего URL.
+
+
+<br>Route:
+
+<br>Определяет соответствие между URL и компонентом React.
+<br>Компонент&nbsp;Route&nbsp;использует два основных свойства:
+
+<br>path: Строка, представляющая шаблон URL, который будет сопоставляться (например,&nbsp;/users/:id).
+<br>element: Компонент React, который должен быть отрендерен, когда URL соответствует&nbsp;path.
+
+
+
+
+<br>Сопоставление маршрутов:
+
+<br>React Router сопоставляет URL с&nbsp;path&nbsp;маршрута.
+<br>Использует “наиболее подходящее” сопоставление, то есть, сначала пробует более точные совпадения.
+<br>Маршрут&nbsp;/&nbsp;обычно является “базовым” и используется для главной страницы.
+
+
+
+
+<br>
+Навигация:
+
+<br>Link:
+
+<br>Компонент, который используется для перехода между маршрутами.
+<br>Создает&nbsp;&lt;a&gt;&nbsp;тег в HTML, но переходы осуществляются без перезагрузки страницы.
+<br>Использует свойство&nbsp;to, чтобы определить URL, на который нужно перейти (например,&nbsp;&lt;Link to="/about"&gt;О нас&lt;/Link&gt;).
+
+
+<br>NavLink:
+
+<br>Похож на&nbsp;Link, но позволяет стилизовать активный (выбранный) маршрут.
+<br>Обычно используется для создания меню навигации.
+
+
+<br>useNavigate:
+
+<br>Хук, который позволяет программно перенаправлять пользователей на другие маршруты.
+<br>Используется, например, после отправки формы или после аутентификации.
+
+
+
+
+<br>
+Хуки:
+
+<br>useParams:
+
+<br>Хук, который используется для доступа к параметрам URL.
+<br>Например, если у вас есть маршрут&nbsp;/users/:id, вы можете получить значение&nbsp;:id&nbsp;с помощью&nbsp;useParams.
+
+
+<br>useLocation:
+
+<br>Хук, который используется для доступа к текущему местоположению (URL).
+<br>Содержит информацию о pathname, search, hash и т.д.
+
+
+<br>useOutlet:
+
+<br>Хук, который возвращает компонент&nbsp;Outlet&nbsp;из вложенного маршрута.
+<br>Используется для вложенных маршрутов, когда родительский компонент должен отрендерить что-то “вокруг” дочернего компонента.
+
+
+
+
+<br>
+Вложенные маршруты:
+
+<br>Маршруты могут быть вложенными. Это значит, что один&nbsp;Route&nbsp;может содержать другие&nbsp;Routes.
+<br>Вложенные маршруты позволяют создавать более сложную и структурированную навигацию.
+<br>Используются для создания, например, боковой панели с меню или навигацией в пределах раздела.
+<br>Outlet&nbsp;используется для указания места, где должны рендериться дочерние компоненты.
+
+
+<br>
+Динамические маршруты:
+
+<br>Это маршруты, содержащие параметры (например,&nbsp;/products/:id).
+<br>Эти маршруты позволяют создавать страницы для разных ресурсов с использованием одного и того же компонента.
+<br>Параметры из URL можно получить с помощью&nbsp;useParams.
+
+
+<br>
+Защищенные маршруты:
+
+<br>Маршруты, доступные только авторизованным пользователям.
+<br>Требуют дополнительной логики для проверки авторизации и перенаправления неавторизованных пользователей.
+<br>Часто используется вместе с контекстом для хранения информации об авторизации.
+
+
+<br>
+NotFound&nbsp;маршрут (404):
+
+<br>Маршрут для обработки случаев, когда URL не совпадает ни с одним из определенных маршрутов.
+<br>Обычно отображает страницу с сообщением об ошибке 404.
+<br>Часто задается в конце всех маршрутов.
+
+
+<br>Работа с React Router:<br>
+<br>
+Установка:
+npm install react-router-dom
+
+
+<br>
+Импорт:
+import { BrowserRouter as Router, Routes, Route, Link, useParams } from 'react-router-dom';
+
+
+<br>
+Настройка:
+
+<br>Оберните ваше приложение в&nbsp;Router.
+<br>Определите маршруты с помощью&nbsp;Routes&nbsp;и&nbsp;Route.
+<br>Используйте&nbsp;Link&nbsp;для навигации.
+<br>Используйте хуки, такие как&nbsp;useParams,&nbsp;useLocation,&nbsp;useNavigate&nbsp;для работы с маршрутами.
+
+
+<br>Пример более сложной конфигурации:<br>import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link, useParams, useNavigate, Outlet } from 'react-router-dom';
+
+function Home() {
+  return &lt;h2&gt;Главная страница&lt;/h2&gt;;
+}
+
+function About() {
+  return &lt;h2&gt;О нас&lt;/h2&gt;;
+}
+
+function ProductList() {
+    return &lt;h2&gt;Список продуктов&lt;/h2&gt;;
+}
+
+function Product() {
+    const { id } = useParams();
+    return &lt;h2&gt;Продукт {id}&lt;/h2&gt;;
+}
+
+function AdminLayout() {
+    return (
+        &lt;div&gt;
+            &lt;h1&gt;Админ Панель&lt;/h1&gt;
+             &lt;nav&gt;
+                &lt;Link to="/admin/dashboard"&gt;Панель&lt;/Link&gt;
+                &lt;Link to="/admin/users"&gt;Пользователи&lt;/Link&gt;
+            &lt;/nav&gt;
+           &lt;Outlet/&gt;
+        &lt;/div&gt;
+    )
+}
+
+function Dashboard() {
+    return &lt;h2&gt;Админская панель&lt;/h2&gt;;
+}
+
+function Users() {
+    return &lt;h2&gt;Список пользователей&lt;/h2&gt;;
+}
+function NotFound() {
+  return &lt;h2&gt;404: Страница не найдена&lt;/h2&gt;;
+}
+
+
+function App() {
+  return (
+    &lt;Router&gt;
+      &lt;div&gt;
+        &lt;nav&gt;
+          &lt;ul&gt;
+            &lt;li&gt;
+              &lt;Link to="/"&gt;Главная&lt;/Link&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;Link to="/about"&gt;О нас&lt;/Link&gt;
+            &lt;/li&gt;
+            &lt;li&gt;
+              &lt;Link to="/products"&gt;Продукты&lt;/Link&gt;
+            &lt;/li&gt;
+              &lt;li&gt;
+              &lt;Link to="/admin"&gt;Админ&lt;/Link&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/nav&gt;
+
+        &lt;Routes&gt;
+          &lt;Route path="/" element={&lt;Home /&gt;} /&gt;
+          &lt;Route path="/about" element={&lt;About /&gt;} /&gt;
+            &lt;Route path="/products" element={&lt;ProductList /&gt;} /&gt;
+            &lt;Route path="/products/:id" element={&lt;Product /&gt;} /&gt;
+           &lt;Route path="/admin" element={&lt;AdminLayout /&gt;}&gt;
+               &lt;Route path="dashboard" element={&lt;Dashboard /&gt;} /&gt;
+               &lt;Route path="users" element={&lt;Users /&gt;} /&gt;
+           &lt;/Route&gt;
+           &lt;Route path="*" element={&lt;NotFound /&gt;} /&gt;
+        &lt;/Routes&gt;
+      &lt;/div&gt;
+    &lt;/Router&gt;
+  );
+}
+
+export default App;
+]]></description><link>Теория\Секция 2. React\Маршрутизация\Основы работы с маршрутизацией React.html</link><guid isPermaLink="false">Теория/Секция 2. React/Маршрутизация/Основы работы с маршрутизацией React.md</guid><pubDate>Fri, 24 Jan 2025 17:39:04 GMT</pubDate></item><item><title><![CDATA[Глобальная область видимости]]></title><description><![CDATA[ 
  <br>Глобальная область видимости - это самая широкая область видимости в JavaScript. Все переменные и функции, объявленные вне любой функции, считаются принадлежащими глобальной области видимости. Это означает, что они доступны из любой точки вашего кода.<br>Пример:<br>// Глобальная переменная
 let myGlobalVariable = "Hello, world!"; 
 
@@ -2622,8 +3029,98 @@ console.log(account.getBalance()); // 1300
 
 // Нельзя получить доступ к _balance напрямую:
 console.log(account._balance); // Ошибка
-<br>В этом примере класс&nbsp;BankAccount&nbsp;инкапсулирует баланс счета (_balance) и предоставляет методы для получения баланса (getBalance), внесения денег (deposit) и снятия денег (withdraw). Внешний код не может изменить баланс счета напрямую, он может только использовать предоставленные методы.<br>Но, как мы помним, в React и React Native не используются ООП и тем более классы, потому инкапсуляция достигается использованием компонентов. Каждый компонент инкапсулирует свой собственный HTML, стили, логику и данные, что делает его независимым от других компонентов.]]></description><link>Теория\Секция 2. React\Термины\Инкапсуляция.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Инкапсуляция.md</guid><pubDate>Tue, 22 Oct 2024 10:46:11 GMT</pubDate></item><item><title><![CDATA[Что такое hooks в react]]></title><description><![CDATA[ 
- <br>Hooks в React — это способ добавлять функциональность к функциональным компонентам без необходимости использования класса. Они позволяют использовать состояние, эффекты и другие возможности, которые раньше были доступны только в классах. Это ключевой инструмент для повышения производительности и улучшения структуры кода.<br>К основным хукам, например, относится useState<br>Помимо этого существует возможность создавать пользовательские хуки.]]></description><link>Теория\Секция 2. React\Термины\Что такое hooks в react.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Что такое hooks в react.md</guid><pubDate>Thu, 09 Jan 2025 18:44:52 GMT</pubDate></item><item><title><![CDATA[Cинтаксический сахар]]></title><description><![CDATA[ 
+<br>В этом примере класс&nbsp;BankAccount&nbsp;инкапсулирует баланс счета (_balance) и предоставляет методы для получения баланса (getBalance), внесения денег (deposit) и снятия денег (withdraw). Внешний код не может изменить баланс счета напрямую, он может только использовать предоставленные методы.<br>Но, как мы помним, в React и React Native не используются ООП и тем более классы, потому инкапсуляция достигается использованием компонентов. Каждый компонент инкапсулирует свой собственный HTML, стили, логику и данные, что делает его независимым от других компонентов.]]></description><link>Теория\Секция 2. React\Термины\Инкапсуляция.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Инкапсуляция.md</guid><pubDate>Tue, 22 Oct 2024 10:46:11 GMT</pubDate></item><item><title><![CDATA[Чистая функция]]></title><description><![CDATA[ 
+ <br>Чистая функция - это функция, которая обладает двумя ключевыми свойствами:<br>
+<br>
+Детерминированность (Determinism):
+
+<br>Для одних и тех же входных данных функция всегда возвращает один и тот же результат.
+<br>Результат функции зависит исключительно от переданных ей аргументов, и ни от каких внешних факторов (например, глобальных переменных, состояния объекта, текущего времени и т.д.).
+
+
+<br>
+Отсутствие побочных эффектов (No Side Effects):
+
+<br>Функция не изменяет ничего за пределами своей области видимости.
+<br>Это означает, что она не модифицирует:
+
+<br>Глобальные переменные.
+<br>Свойства переданных объектов.
+<br>DOM-элементы.
+<br>Не отправляет сетевые запросы.
+<br>Не записывает данные в файлы.
+<br>Не изменяет значения, переданные ей по ссылке.
+<br>И вообще не производит никаких действий, которые влияют на что-то вне самой функции.
+
+
+
+
+<br>Примеры чистых и нечистых функций:<br>Чистые функции:<br>// Пример 1: Сложение двух чисел
+function add(a, b) {
+  return a + b; // Возвращает только результат сложения
+}
+
+// Пример 2: Строка в верхний регистр
+function toUpper(str) {
+  return str.toUpperCase(); // Возвращает новую строку в верхнем регистре
+}
+
+// Пример 3: Удвоение элементов массива (создание нового массива)
+function doubleArray(arr) {
+  return arr.map(item =&gt; item * 2); // Возвращает новый массив с удвоенными значениями
+}
+<br>В этих примерах:<br>
+<br>Результат полностью зависит от входных аргументов.
+<br>Функции не меняют никаких данных вне своих границ.
+<br>Нечистые функции:<br>// Пример 1: Изменение глобальной переменной
+let counter = 0;
+
+function incrementCounter() {
+  counter++; // Изменяет глобальную переменную
+  return counter;
+}
+
+
+// Пример 2: Модификация переданного объекта
+function addProperty(obj, key, value) {
+  obj[key] = value; // Модифицирует переданный объект
+  return obj; // и возвращает его
+}
+
+// Пример 3: Запись в консоль
+function logMessage(message) {
+  console.log(message); // Побочный эффект: вывод в консоль
+}
+
+// Пример 4: Зависимость от внешнего фактора
+function getRandomNumber() {
+  return Math.random(); // Зависит от внешнего генератора случайных чисел
+}
+<br>В этих примерах:<br>
+<br>Результат может зависеть не только от аргументов (например,&nbsp;incrementCounter&nbsp;зависит от&nbsp;counter).
+<br>Функции вызывают побочные эффекты (меняют глобальную переменную, модифицируют объект, выводят сообщение в консоль).
+]]></description><link>Теория\Секция 2. React\Термины\Чистая функция.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Чистая функция.md</guid><pubDate>Fri, 24 Jan 2025 17:08:23 GMT</pubDate></item><item><title><![CDATA[Что такое API]]></title><description><![CDATA[ 
+ <br>Application Programming Interface (API) — это интерфейс, позволяющий двум приложениям взаимодействовать друг с другом. В контексте веба API обычно предоставляют данные (например, JSON) по HTTP-запросам (GET, POST, PUT, DELETE и т. д.). Это своего рода посредник, который позволяет разным программам общаться друг с другом. Это как стандартизированный способ взаимодействия, который позволяет разработчикам экономить время и ресурсы, а пользователям получать доступ к нужным данным и функциональности.<br>Представьте себе, что API — это как официант в ресторане:<br>В чем суть:<br>
+<br>Ты (программа):&nbsp;Ты — это приложение, веб-сайт или программа, которой нужна какая-то информация или функциональность. Например, приложение для заказа такси или веб-сайт погоды.
+<br>Кухня (другая программа или сервис):&nbsp;Это, например, база данных, другой сервис, социальная сеть или что-то еще, где хранится нужная информация или выполняются определенные действия.
+<br>Официант (API):&nbsp;Это способ, которым ты можешь “общаться” с кухней. Ты не заходишь на кухню сам и не копаешься в кастрюлях. Ты делаешь заказ официанту, и он приносит тебе нужный результат.
+<br>Как это работает:<br>
+<br>Твоя программа отправляет “запрос” через API:&nbsp;Ты говоришь официанту (API), что тебе нужно. Например, “покажи мне погоду в Москве” или “закажи такси до моего дома”. Этот запрос имеет определенный формат, понятный API.
+<br>API обрабатывает запрос:&nbsp;Официант (API) идет на кухню (другая программа) и передает твой запрос на понятном для нее языке.
+<br>Другая программа обрабатывает запрос и возвращает “ответ”:&nbsp;Кухня (другая программа) выполняет запрос и готовит для тебя результат. Например, данные о погоде в Москве или номер и время прибытия такси.
+<br>API передает “ответ” твоей программе:&nbsp;Официант (API) приносит тебе готовый ответ.
+<br>Твоя программа использует полученный ответ:&nbsp;Твое приложение или сайт показывает тебе данные о погоде или информацию о заказе такси.
+<br>Почему API важны:<br>
+<br>Упрощение разработки:&nbsp;Разработчикам не нужно создавать все с нуля. Они могут использовать готовые API для получения нужных данных или функциональности.
+<br>Экономия времени и ресурсов:&nbsp;Использование API позволяет не тратить время на написание сложного кода, который уже есть в другом месте.
+<br>Возможность интеграции разных сервисов:&nbsp;API позволяют разным программам “общаться” друг с другом, обмениваться данными и создавать новые возможности.
+<br>Стандартизация:&nbsp;API определяют четкие правила, как общаться с сервисом, что делает интеграцию более простой и предсказуемой.
+<br>API может быть как "кухней" другого ресторана, так и вашего. В первом случае это может быть сервис оплаты или авторизации (например с помощью oAuth2), во втором - банально бэкэнд приложения.]]></description><link>Теория\Секция 2. React\Термины\Что такое API.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Что такое API.md</guid><pubDate>Fri, 24 Jan 2025 17:57:36 GMT</pubDate></item><item><title><![CDATA[Что такое hooks в react]]></title><description><![CDATA[ 
+ <br>React Hooks — это мощный инструмент, позволяющий добавлять функциональность к функциональным компонентам без использования классов. Они предоставляют возможность использовать состояние, побочные эффекты и другие возможности, ранее доступные только в классовых компонентах. Хуки являются ключевым инструментом для повышения производительности, улучшения структуры кода и переиспользования логики. Они также делают код более простым, читаемым и легким в тестировании.<br>К основным хукам, например, относятся useState, useContext, useRef, который мы уже проходили. Большую часть хуков вам необходимо изучить самим, но вот небольшой список:<br>
+<br><a data-href="useEffect" href="Теория\Секция 2. React\Hooks\useEffect.html" class="internal-link" target="_self" rel="noopener nofollow">useEffect</a>
+<br><a data-href="useReducer" href="Теория\Секция 2. React\Hooks\useReducer.html" class="internal-link" target="_self" rel="noopener nofollow">useReducer</a>
+<br><a data-href="useCallback useMemo" href="Теория\Секция 2. React\Hooks\useCallback useMemo.html" class="internal-link" target="_self" rel="noopener nofollow">useCallback useMemo</a>
+<br>Помимо этого существует возможность создавать пользовательские хуки.]]></description><link>Теория\Секция 2. React\Термины\Что такое hooks в react.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Что такое hooks в react.md</guid><pubDate>Fri, 24 Jan 2025 17:17:48 GMT</pubDate></item><item><title><![CDATA[Cинтаксический сахар]]></title><description><![CDATA[ 
  <br>Синтаксический сахар - это термин, используемый в программировании для описания синтаксических конструкций, которые делают код более читаемым и удобным для написания, но не меняют его функциональность.<br>Представьте, что у вас есть рецепт пирога. В оригинальном рецепте все ингредиенты перечислены в строгом порядке, и вам нужно выполнять каждый шаг последовательно, чтобы получить желаемый результат.<br>Синтаксический сахар позволяет вам переписать рецепт более читаемым и компактным образом. Например, вы можете объединить несколько ингредиентов в один шаг или использовать более короткие и понятные названия для ингредиентов. Это не меняет результат приготовления пирога, но делает рецепт более понятным и простым в использовании.<br>Многие современные языки пытаются создать как можно больше подобного "синтаксического сахара", чтобы программисты легче и быстрее могли разрабатывать ПО - и это хорошо.]]></description><link>Теория\Секция 2. React\Термины\Cинтаксический сахар.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/Cинтаксический сахар.md</guid><pubDate>Tue, 22 Oct 2024 10:39:43 GMT</pubDate></item><item><title><![CDATA[JSX]]></title><description><![CDATA[ 
  <br>JSX (JavaScript XML) — это язык расширения JavaScript, который позволяет писать HTML-подобный код непосредственно в JavaScript-файлах. Он не является обязательной частью JavaScript, но является популярным выбором среди разработчиков React, так как он позволяет создавать более читаемые и структурированные UI.<br>Преимущества JSX:<br>
 <br>Читаемость:&nbsp;JSX делает код UI более читаемым, поскольку он структурирован и похож на HTML.
@@ -2660,7 +3157,342 @@ ReactDOM.render(element, document.getElementById('root'));
 <br>Повторное использование компонентов:&nbsp;Компоненты React можно использовать повторно в разных частях приложения, что сокращает дублирование кода.
 <br>Улучшенная производительность:&nbsp;Виртуальный DOM React оптимизирует обновления UI и делает приложения более отзывчивыми.
 <br>Большое сообщество:&nbsp;React имеет активное сообщество разработчиков, которое предоставляет обширную документацию, примеры кода и решения проблем.
-]]></description><link>Теория\Секция 2. React\Термины\React.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/React.md</guid><pubDate>Tue, 22 Oct 2024 10:25:28 GMT</pubDate></item><item><title><![CDATA[Цикл for…in]]></title><description><![CDATA[ 
+]]></description><link>Теория\Секция 2. React\Термины\React.html</link><guid isPermaLink="false">Теория/Секция 2. React/Термины/React.md</guid><pubDate>Tue, 22 Oct 2024 10:25:28 GMT</pubDate></item><item><title><![CDATA[Асинхронность React]]></title><description><![CDATA[ 
+ <br>Асинхронность в React — это концепция, которая позволяет выполнять операции, занимающие много времени (например, запросы к API, таймеры, анимации), без блокировки основного потока пользовательского интерфейса. Это обеспечивает отзывчивость и плавность работы приложения.<br>Вот основные аспекты асинхронности в React:<br>1. Зачем нужна асинхронность?<br>Представьте, что вы делаете запрос к серверу за данными. Если этот запрос выполняется синхронно, то браузер будет ждать ответа от сервера, не отрисовывая ничего на экране. Это приведет к “зависанию” интерфейса и плохому пользовательскому опыту.<br>Асинхронность позволяет запросить данные и продолжать отрисовку интерфейса, а когда данные придут, обновить UI.<br>JavaScript, будучи однопоточным языком, использует следующие механизмы для асинхронных операций:<br>
+<br>Callbacks:&nbsp;Самый старый способ. Функции, которые вызываются по завершении асинхронной операции. Часто приводят к “callback hell”.
+<br>Promises:&nbsp;Более современный и структурированный подход. Представляют собой “обещание” будущего результата. Могут быть в состоянии “pending”, “fulfilled” или “rejected”.
+<br>Async/Await:&nbsp;Синтаксический сахар над Promises, делающий асинхронный код более похожим на синхронный. Гораздо читабельнее, чем Promises.
+<br>В React асинхронность чаще всего используется в следующих сценариях:<br>
+<br>Получение данных от API (fetch):&nbsp;Загрузка данных с сервера.
+<br>Обработка пользовательского ввода:&nbsp;Задержка перед выполнением действия (например, debounce).
+<br>Таймеры и анимации:&nbsp;Запуск задач с определенной периодичностью или после задержки.
+<br>Ленивая загрузка компонентов:&nbsp;Загрузка компонентов по мере необходимости.
+<br>Выполнение побочных эффектов (useEffect):&nbsp;Работа с внешними API, DOM, таймерами.
+<br>React сам по себе не обеспечивает асинхронность. Он полагается на механизмы JavaScript. Однако React предоставляет инструменты для удобной работы с асинхронными операциями:<br>
+<br>useState&nbsp;и&nbsp;useEffect:
+
+<br>useState&nbsp;используется для хранения состояния компонента, которое может изменяться при получении асинхронных данных.<br>
+
+<br>useEffect&nbsp;используется для выполнения побочных эффектов, в том числе для асинхронных запросов. Он позволяет следить за изменениями в зависимостях и выполнять код только тогда, когда нужно.<br>
+
+<br>Пример загрузки данных с использованием&nbsp;fetch&nbsp;и&nbsp;useState,&nbsp;useEffect:
+import React, { useState, useEffect } from 'react';
+
+function MyComponent() {
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() =&gt; {
+    const fetchData = async () =&gt; {
+      try {
+        const response = await fetch('https://api.example.com/data');
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const jsonData = await response.json();
+        setData(jsonData);
+        setLoading(false);
+      } catch (e) {
+        setError(e);
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []); // Пустой массив зависимостей, чтобы эффект выполнился один раз после монтирования
+
+  if (loading) {
+    return &lt;p&gt;Загрузка...&lt;/p&gt;;
+  }
+
+  if (error) {
+      return &lt;p&gt;Ошибка: {error.message}&lt;/p&gt;;
+  }
+
+  return (
+    &lt;div&gt;
+      {data &amp;&amp; data.map(item =&gt; (
+        &lt;p key={item.id}&gt;{item.name}&lt;/p&gt;
+      ))}
+    &lt;/div&gt;
+  );
+}
+
+export default MyComponent;
+
+
+
+
+<br>Suspense&nbsp;и&nbsp;lazy:
+
+<br>lazy&nbsp;позволяет отложить загрузку компонента до момента, когда он понадобится.
+<br>Suspense&nbsp;позволяет отобразить запасной UI (например, загрузчик) во время загрузки ленивого компонента или во время асинхронных операций.
+<br>Пример ленивой загрузки компонента:
+
+import React, { lazy, Suspense } from 'react';
+
+const LazyComponent = lazy(() =&gt; import('./LazyComponent'));
+
+function MyComponent() {
+  return (
+    &lt;div&gt;
+      &lt;Suspense fallback={&lt;div&gt;Загрузка...&lt;/div&gt;}&gt;
+        &lt;LazyComponent /&gt;
+      &lt;/Suspense&gt;
+    &lt;/div&gt;
+  );
+}
+
+
+]]></description><link>Теория\Секция 2. React\API\Асинхронность React.html</link><guid isPermaLink="false">Теория/Секция 2. React/API/Асинхронность React.md</guid><pubDate>Fri, 24 Jan 2025 18:01:07 GMT</pubDate></item><item><title><![CDATA[Запросы fetch]]></title><description><![CDATA[ 
+ <br>fetch&nbsp;— это современный API, предоставляемый браузерами (и Node.js с некоторыми дополнениями), для выполнения сетевых запросов. Он пришел на замену более старому и громоздкому&nbsp;XMLHttpRequest.&nbsp;fetch&nbsp;основан на промисах, что делает асинхронный код более читаемым и управляемым.<br>Простой пример GET-запроса:<br>fetch('https://api.example.com/data')
+  .then(response =&gt; {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json(); // Или response.text(), response.blob() и т.д.
+  })
+  .then(data =&gt; {
+    console.log('Полученные данные:', data);
+  })
+  .catch(error =&gt; {
+    console.error('Ошибка при запросе:', error);
+  });
+<br>Разберем этот код:<br>
+<br>fetch('https://api.example.com/data')&nbsp;- инициирует запрос по указанному URL. Возвращает Promise.
+<br>.then(response =&gt; {...})&nbsp;- обрабатывает ответ от сервера.
+
+<br>response.ok&nbsp;- проверяет, что ответ успешен (статус код 200-299). Если нет, выбрасываем ошибку.
+<br>response.json()&nbsp;- извлекает JSON из тела ответа. Возвращает Promise. Другие методы для обработки тела:&nbsp;response.text(),&nbsp;response.blob(),&nbsp;response.arrayBuffer(),&nbsp;response.formData().
+
+
+<br>.then(data =&gt; {...})&nbsp;- обрабатывает полученные данные JSON.
+<br>.catch(error =&gt; {...})&nbsp;- обрабатывает ошибки, возникшие во время запроса или обработки ответа.
+<br>Пример POST-запроса с отправкой JSON данных:<br>const postData = {
+  name: 'John Doe',
+  email: 'john.doe@example.com'
+};
+
+fetch('https://api.example.com/users', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify(postData)
+})
+  .then(response =&gt; {
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    return response.json();
+  })
+  .then(data =&gt; {
+    console.log('Успешно отправлено:', data);
+  })
+  .catch(error =&gt; {
+    console.error('Ошибка при отправке:', error);
+  });
+<br>Разберем POST-запрос:<br>
+<br>fetch(url, options)&nbsp;- вторым аргументом передается объект&nbsp;options, который позволяет настраивать запрос.
+
+<br>method: 'POST'&nbsp;- указывает метод запроса.
+<br>headers: {...}&nbsp;- задает заголовки.&nbsp;Content-Type: application/json&nbsp;говорит серверу, что мы отправляем данные в формате JSON.
+<br>body: JSON.stringify(postData)&nbsp;- тело запроса, преобразованное из JavaScript объекта в JSON-строку.
+
+
+<br>Остальная часть обработки ответа аналогична GET-запросу.
+<br>Ключевые опции в&nbsp;fetch:<br>
+<br>method: Метод HTTP запроса (GET,&nbsp;POST,&nbsp;PUT,&nbsp;DELETE,&nbsp;PATCH,&nbsp;HEAD,&nbsp;OPTIONS,&nbsp;TRACE). По умолчанию&nbsp;GET.
+<br>headers: Заголовки HTTP запроса. Объект с ключами и значениями.
+<br>body: Тело запроса. Может быть&nbsp;String,&nbsp;Blob,&nbsp;ArrayBuffer,&nbsp;FormData&nbsp;или&nbsp;URLSearchParams.
+<br>mode: Режим запроса:&nbsp;cors,&nbsp;no-cors,&nbsp;same-origin. По умолчанию&nbsp;cors. Используется для управления политикой CORS.
+<br>credentials: Управление куками и авторизацией:&nbsp;omit,&nbsp;same-origin,&nbsp;include. По умолчанию&nbsp;same-origin.
+<br>cache: Управление кешированием запроса:&nbsp;default,&nbsp;no-store,&nbsp;reload,&nbsp;no-cache,&nbsp;force-cache,&nbsp;only-if-cached. По умолчанию&nbsp;default.
+<br>redirect: Управление перенаправлениями:&nbsp;follow,&nbsp;error,&nbsp;manual. По умолчанию&nbsp;follow.
+<br>Основные моменты:<br>
+<br>Обработка ошибок:&nbsp;Важно проверять&nbsp;response.ok&nbsp;и обрабатывать ошибки.
+<br>Выбор формата данных:&nbsp;Используйте&nbsp;response.json(),&nbsp;response.text(),&nbsp;response.blob()&nbsp;и т.д. в зависимости от формата данных.
+<br>Асинхронность:&nbsp;fetch&nbsp;- это асинхронная операция. Используйте промисы или&nbsp;async/await&nbsp;для работы с ней.
+<br><br>Пример GET-запроса для получения списка пользователей:<br>import React, { useState, useEffect } from 'react';
+
+function UserList() {
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() =&gt; {
+    const fetchUsers = async () =&gt; {
+      setLoading(true);
+      setError(null);
+
+      try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const data = await response.json();
+        setUsers(data);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchUsers();
+  }, []); // Пустой массив зависимостей означает, что useEffect выполнится только при первом рендере
+
+  if (loading) {
+    return &lt;p&gt;Загрузка данных...&lt;/p&gt;;
+  }
+
+  if (error) {
+    return &lt;p&gt;Ошибка: {error}&lt;/p&gt;;
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;Список пользователей&lt;/h2&gt;
+      &lt;ul&gt;
+        {users.map(user =&gt; (
+          &lt;li key={user.id}&gt;
+            {user.name} ({user.email})
+          &lt;/li&gt;
+        ))}
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default UserList;
+<br>Разбор примера GET-запроса:<br>
+<br>useState:
+
+<br>users: Хранит список пользователей, полученных с сервера.
+<br>loading: Флаг, указывающий на процесс загрузки данных.
+<br>error: Строка, содержащая текст ошибки, если она произошла.
+
+
+<br>useEffect:
+
+<br>Выполняется только при первом рендере (пустой массив зависимостей&nbsp;[]).
+<br>Внутри асинхронная функция&nbsp;fetchUsers.
+<br>Устанавливает&nbsp;loading&nbsp;в&nbsp;true&nbsp;перед запросом.
+<br>Сбрасывает&nbsp;error&nbsp;в&nbsp;null.
+<br>try...catch...finally:
+
+<br>try: Выполняет запрос с помощью&nbsp;fetch. Проверяет&nbsp;response.ok&nbsp;и вызывает исключение, если запрос был неуспешным. Извлекает JSON из ответа.
+<br>catch: Перехватывает ошибки и устанавливает значение&nbsp;error.
+<br>finally: Выполняется всегда, устанавливает&nbsp;loading&nbsp;в&nbsp;false&nbsp;после завершения запроса (успешного или с ошибкой).
+
+
+
+
+<br>Рендеринг:
+
+<br>Отображает сообщение “Загрузка данных…”, если&nbsp;loading&nbsp;равен&nbsp;true.
+<br>Отображает сообщение об ошибке, если&nbsp;error&nbsp;не&nbsp;null.
+<br>Отображает список пользователей, если данные успешно получены.
+
+
+<br>Пример POST-запроса для создания нового пользователя:<br>import React, { useState } from 'react';
+
+function UserForm() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState(null);
+  const [error, setError] = useState(null);
+
+  const handleSubmit = async (event) =&gt; {
+    event.preventDefault();
+    setLoading(true);
+    setError(null);
+    setSuccessMessage(null);
+
+    try {
+      const response = await fetch('https://jsonplaceholder.typicode.com/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, email })
+      });
+
+      if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      setSuccessMessage('Пользователь успешно создан!');
+        console.log('Ответ сервера:', data);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    &lt;div&gt;
+      &lt;h2&gt;Создать нового пользователя&lt;/h2&gt;
+      &lt;form onSubmit={handleSubmit}&gt;
+        &lt;label&gt;
+          Имя:
+          &lt;input type="text" value={name} onChange={e =&gt; setName(e.target.value)} required /&gt;
+        &lt;/label&gt;
+        &lt;label&gt;
+          Email:
+          &lt;input type="email" value={email} onChange={e =&gt; setEmail(e.target.value)} required /&gt;
+        &lt;/label&gt;
+        &lt;button type="submit" disabled={loading}&gt;
+          {loading ? 'Отправка...' : 'Создать'}
+        &lt;/button&gt;
+      &lt;/form&gt;
+
+       {successMessage &amp;&amp; &lt;p style={{ color: 'green' }}&gt;{successMessage}&lt;/p&gt;}
+      {error &amp;&amp; &lt;p style={{ color: 'red' }}&gt;Ошибка: {error}&lt;/p&gt;}
+    &lt;/div&gt;
+  );
+}
+
+export default UserForm;
+<br>Разбор примера POST-запроса:<br>
+<br>useState:
+
+<br>name,&nbsp;email: Хранят значения полей ввода.
+<br>loading: Флаг для процесса отправки.
+<br>successMessage: Сообщение об успешном создании.
+<br>error: Сообщение об ошибке.
+
+
+<br>handleSubmit:
+
+<br>Обработчик отправки формы.
+<br>Предотвращает перезагрузку страницы.
+<br>Устанавливает&nbsp;loading&nbsp;в&nbsp;true, сбрасывает&nbsp;error&nbsp;и&nbsp;successMessage.
+<br>try...catch...finally:
+
+<br>try: Выполняет POST-запрос с помощью&nbsp;fetch.
+
+<br>Устанавливает заголовки&nbsp;Content-Type: application/json, чтобы сообщить серверу, что отправляются JSON данные
+<br>Преобразует объект данных в JSON строку с помощью&nbsp;JSON.stringify
+
+
+<br>catch: Перехватывает и обрабатывает ошибки.
+<br>finally: Устанавливает&nbsp;loading&nbsp;в&nbsp;false.
+
+
+
+
+<br>Рендеринг:
+
+<br>Отображает форму с полями ввода.
+<br>Кнопка “Создать” деактивируется во время отправки.
+<br>Отображает сообщения об успехе или ошибке.
+
+
+]]></description><link>Теория\Секция 2. React\API\Запросы fetch.html</link><guid isPermaLink="false">Теория/Секция 2. React/API/Запросы fetch.md</guid><pubDate>Fri, 24 Jan 2025 18:09:42 GMT</pubDate></item><item><title><![CDATA[Цикл for…in]]></title><description><![CDATA[ 
  <br>for...in&nbsp;цикл в JavaScript используется для перебора перечислимых свойств объекта. Он итерируется по ключам (именам свойств) объекта, а не по значениям.<br>for (ключ in объект) {
   // код, который будет выполняться для каждого ключа
   // Доступ к значению свойства: объект[ключ]
@@ -2745,7 +3577,317 @@ for (const [key, value] of myMap) {
  <br>Когда мы изучали циклы, я упомянул про разновидность конструкции for которая будет очень полезна для обработки массивов и объектов.<br>
 <br><a data-href="Цикл for…in" href="Теория\Секция 2. React\For\Цикл for…in.html" class="internal-link" target="_self" rel="noopener nofollow">Цикл for…in</a>
 <br><a data-href="Цикл for…of" href="Теория\Секция 2. React\For\Цикл for…of.html" class="internal-link" target="_self" rel="noopener nofollow">Цикл for…of</a>
-]]></description><link>Теория\Секция 2. React\For\for конструкция полезная для массивов и объектов.html</link><guid isPermaLink="false">Теория/Секция 2. React/For/for конструкция полезная для массивов и объектов.md</guid><pubDate>Fri, 01 Nov 2024 19:08:36 GMT</pubDate></item><item><title><![CDATA[Что такое Ветка]]></title><description><![CDATA[ 
+]]></description><link>Теория\Секция 2. React\For\for конструкция полезная для массивов и объектов.html</link><guid isPermaLink="false">Теория/Секция 2. React/For/for конструкция полезная для массивов и объектов.md</guid><pubDate>Fri, 01 Nov 2024 19:08:36 GMT</pubDate></item><item><title><![CDATA[useCallback useMemo]]></title><description><![CDATA[ 
+ <br>React по умолчанию перерисовывает компонент каждый раз, когда меняется его&nbsp;props&nbsp;или&nbsp;state. Это хорошо и правильно, но в некоторых случаях может привести к проблемам производительности:<br>
+<br>Лишние Рендеры:&nbsp;Если компонент перерисовывается слишком часто, даже если его вывод не изменился, это может замедлить приложение.
+<br>Повторное Создание Объектов/Функций:&nbsp;Каждый раз при рендере, React заново создает объекты и функции, которые используются в компоненте. Это может вызвать проблемы, особенно если эти объекты/функции используются в качестве пропсов для дочерних компонентов.
+<br>Для этого существуют хуки оптимизации useCallback и useMemo.<br><br>useMemo&nbsp;– это хук, который позволяет&nbsp;мемоизировать&nbsp;(кешировать) результат дорогостоящей функции. Вместо того чтобы выполнять функцию при каждом рендере,&nbsp;useMemo&nbsp;выполняет ее только тогда, когда изменяются ее зависимости.<br>Синтаксис:<br>const memoizedValue = useMemo(() =&gt; {
+  // Здесь дорогостоящая операция
+  return someCalculation();
+}, [dependency1, dependency2, ...]);
+<br>
+<br>Первый аргумент:&nbsp;Функция, результат которой нужно мемоизировать.
+<br>Второй аргумент:&nbsp;Массив зависимостей.&nbsp;useMemo&nbsp;будет пересчитывать значение только тогда, когда изменяется хотя бы одна из этих зависимостей. Если массив зависимостей пустой ([]), функция будет выполнена только один раз при первом рендере компонента.
+<br>Когда использовать&nbsp;useMemo:<br>
+<br>Дорогостоящие вычисления:&nbsp;Если у вас есть функция, которая выполняет сложные вычисления, обработку данных или другие ресурсоемкие операции.
+<br>Пропсы в дочерние компоненты:&nbsp;Если вы передаете результат вычислений в качестве пропса в дочерний компонент, и этот пропс может повлиять на производительность дочернего компонента.
+<br>Пример:<br>import React, { useState, useMemo } from 'react';
+
+function ExpensiveComponent({ data }) {
+  const [number, setNumber] = useState(0);
+
+  const processedData = useMemo(() =&gt; {
+    console.log('Calculating processed data...');
+    return data.map(item =&gt; item * 2); // Дорогая операция
+  }, [data]);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Number: {number}&lt;/p&gt;
+      &lt;button onClick={() =&gt; setNumber(number + 1)}&gt;Increase Number&lt;/button&gt;
+      &lt;p&gt;Processed {processedData.join(', ')}&lt;/p&gt;
+    &lt;/div&gt;
+  );
+}
+
+function App() {
+  const [myData, setMyData] = useState([1, 2, 3, 4, 5]);
+
+  return (
+    &lt;ExpensiveComponent data={myData} /&gt;
+  );
+}
+
+export default App;
+<br>В этом примере&nbsp;processedData&nbsp;вычисляется только тогда, когда меняется&nbsp;data. Если мы просто нажмем на кнопку “Increase Number”,&nbsp;processedData&nbsp;не будет пересчитываться, так как&nbsp;data&nbsp;не изменилась.<br><br>useCallback&nbsp;– это хук, который позволяет&nbsp;мемоизировать&nbsp;(кешировать) саму функцию. Он возвращает мемоизированную версию функции, которая не будет пересоздаваться при каждом рендере, если ее зависимости не изменились.<br>Синтаксис:<br>const memoizedCallback = useCallback(() =&gt; {
+  // Здесь функция
+  return someFunction();
+}, [dependency1, dependency2, ...]);
+<br>
+<br>Первый аргумент:&nbsp;Функция, которую нужно мемоизировать.
+<br>Второй аргумент:&nbsp;Массив зависимостей. Функция будет пересоздана только тогда, когда изменится хотя бы одна из этих зависимостей. Если массив зависимостей пустой ([]), функция будет создана только один раз при первом рендере компонента.
+<br>Когда использовать&nbsp;useCallback:<br>
+<br>Callback функции, передаваемые в дочерние компоненты:&nbsp;Если вы передаете функцию в качестве пропса в дочерний компонент, который использует&nbsp;React.memo&nbsp;или&nbsp;useMemo&nbsp;для оптимизации, использование&nbsp;useCallback&nbsp;гарантирует, что функция не будет пересоздаваться при каждом рендере родительского компонента. Это позволит избежать лишних рендеров дочернего компонента.
+<br>Функции в&nbsp;useEffect:&nbsp;Если ваша функция используется в&nbsp;useEffect&nbsp;и вы хотите избежать ее повторного выполнения при каждом рендере,&nbsp;useCallback&nbsp;поможет мемоизировать эту функцию и использовать ее в зависимостях&nbsp;useEffect.
+<br>Пример:<br>import React, { useState, useCallback } from 'react';
+
+const Button = React.memo(({ onClick, text }) =&gt; {
+  console.log('Button rendered:', text);
+  return &lt;button onClick={onClick}&gt;{text}&lt;/button&gt;;
+});
+
+function App() {
+  const [count, setCount] = useState(0);
+
+  const increment = useCallback(() =&gt; {
+    setCount(count + 1);
+  }, [count]);
+
+  const decrement = useCallback(() =&gt; {
+    setCount(count - 1);
+  }, [count]);
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Count: {count}&lt;/p&gt;
+      &lt;Button onClick={increment} text="Increment" /&gt;
+      &lt;Button onClick={decrement} text="Decrement" /&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
+<br>В этом примере, компоненты&nbsp;Button&nbsp;обернуты в&nbsp;React.memo, чтобы они перерисовывались только при изменении их пропсов. Без&nbsp;useCallback, функции&nbsp;increment&nbsp;и&nbsp;decrement&nbsp;создавались бы при каждом рендере, что приводило бы к ненужным перерисовкам кнопок.&nbsp;useCallback&nbsp;мемоизирует функции, и они пересоздаются только при изменении&nbsp;count.]]></description><link>Теория\Секция 2. React\Hooks\useCallback useMemo.html</link><guid isPermaLink="false">Теория/Секция 2. React/Hooks/useCallback useMemo.md</guid><pubDate>Fri, 24 Jan 2025 17:16:53 GMT</pubDate></item><item><title><![CDATA[useEffect]]></title><description><![CDATA[ 
+ <br>useEffect&nbsp;– это хук в React, который позволяет выполнять&nbsp;побочные эффекты&nbsp;в функциональных компонентах. Побочные эффекты – это любые операции, которые взаимодействуют с внешним миром или меняют что-то за пределами компонента (например, получение данных с сервера, подписка на события, манипуляции с DOM).<br>Базовый Синтаксис<br>useEffect(() =&gt; {
+  // Код побочного эффекта
+  
+  // Опциональная функция для очистки эффекта
+  return () =&gt; {
+      // Код для очистки
+  };
+}, [зависимости]);
+<br>
+<br>Первый аргумент:&nbsp;Функция, содержащая код побочного эффекта. Она выполняется после каждого рендеринга компонента (по умолчанию).
+<br>Второй аргумент (массив зависимостей):
+
+<br>Массив значений, которые отслеживает&nbsp;useEffect.
+<br>Если массив не указан (пустой), то эффект запускается только после первого рендера и перед размонтированием компонента.
+<br>Если массив пустой ([]), то эффект запускается только один раз при первом рендере и один раз при размонтировании.
+<br>Если в массиве указаны переменные, то эффект будет запускаться только тогда, когда значения этих переменных меняются.
+
+
+<br>Функция очистки (возвращаемая из функции эффекта):
+
+<br>Вызывается перед тем, как эффект будет запущен снова и перед размонтированием компонента.
+<br>Предназначена для отмены подписок, очистки таймеров и других ресурсов, чтобы избежать утечек памяти и ошибок.
+
+
+<br>Основные Примеры Использования<br>
+<br>
+Получение данных с сервера:
+import React, { useState, useEffect } from 'react';
+
+function MyComponent() {
+    const [data, setData] = useState(null);
+
+    useEffect(() =&gt; {
+      fetch('https://api.example.com/data')
+        .then(response =&gt; response.json())
+        .then(data =&gt; setData(data));
+    }, []); // Пустой массив зависимостей, выполняется только при первом рендере
+
+    if (!data) {
+        return &lt;div&gt;Загрузка...&lt;/div&gt;;
+    }
+
+    return &lt;div&gt;{JSON.stringify(data)}&lt;/div&gt;;
+}
+
+javascript
+
+<br>
+Обновление заголовка документа:
+import React, { useState, useEffect } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  useEffect(() =&gt; {
+      document.title = `Счетчик: ${count}`;
+  }, [count]); // Эффект срабатывает только при изменении count
+
+  return (
+    &lt;div&gt;
+      &lt;p&gt;Счетчик: {count}&lt;/p&gt;
+      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;Увеличить&lt;/button&gt;
+    &lt;/div&gt;
+  );
+}
+
+
+<br>
+Подписка на события:
+import React, { useState, useEffect } from 'react';
+
+function OnlineStatus() {
+    const [isOnline, setIsOnline] = useState(navigator.onLine);
+
+    useEffect(() =&gt; {
+      function handleOnline() {
+        setIsOnline(true);
+      }
+      function handleOffline() {
+          setIsOnline(false);
+      }
+
+      window.addEventListener('online', handleOnline);
+      window.addEventListener('offline', handleOffline);
+
+      return () =&gt; {
+         window.removeEventListener('online', handleOnline);
+         window.removeEventListener('offline', handleOffline);
+      };
+   }, []);
+    
+   return (
+       &lt;div&gt;
+         Вы {isOnline ? 'в сети' : 'не в сети'}
+       &lt;/div&gt;
+    )
+}
+
+javascript
+
+<br>Работа с Зависимостями<br>
+<br>Пустой массив зависимостей ([]):&nbsp;Эффект выполняется только один раз при монтировании компонента и один раз при его размонтировании (эквивалент&nbsp;componentDidMount&nbsp;и&nbsp;componentWillUnmount&nbsp;в классовых компонентах).
+<br>Массив с переменными:&nbsp;Эффект выполняется при каждом изменении одной из зависимостей. Важно включать все переменные, используемые в эффекте, в массив зависимостей. В противном случае эффект будет работать некорректно.
+<br>Отсутствие массива зависимостей:&nbsp;Эффект выполняется&nbsp;после каждого рендеринга, что может привести к бесконечному циклу рендеринга, если внутри эффекта будет происходить изменение состояния.
+<br>Очистка Эффекта<br>
+<br>Возвращаемая функция из&nbsp;useEffect&nbsp;— это функция очистки.
+<br>Необходимо использовать для:
+
+<br>Отмены запросов
+<br>Отмены таймеров
+<br>Удаления слушателей событий
+<br>Освобождения ресурсов
+
+
+<br>Функция очистки вызывается:
+
+<br>Перед каждым повторным запуском эффекта
+<br>Перед размонтированием компонента
+
+
+]]></description><link>Теория\Секция 2. React\Hooks\useEffect.html</link><guid isPermaLink="false">Теория/Секция 2. React/Hooks/useEffect.md</guid><pubDate>Fri, 24 Jan 2025 17:04:08 GMT</pubDate></item><item><title><![CDATA[useReducer]]></title><description><![CDATA[ 
+ <br>useReducer&nbsp;— это React Hook, предоставляемый для управления более сложной логикой состояния по сравнению с&nbsp;useState. Он идеально подходит для случаев, когда состояние зависит от предыдущего состояния или когда логика обновления состояния включает несколько поддействий.<br>Основные понятия:<br>
+<br>
+Редуктор (Reducer):
+
+<br><a data-href="Чистая функция" href="Теория\Секция 2. React\Термины\Чистая функция.html" class="internal-link" target="_self" rel="noopener nofollow">Чистая функция</a>, которая принимает два аргумента: текущее состояние и действие (action).
+<br>На основе этих аргументов она возвращает&nbsp;новое&nbsp;состояние.
+<br>Она&nbsp;не должна&nbsp;иметь побочных эффектов (например, сетевые запросы, обращения к DOM).
+<br>Синтаксис:&nbsp;(state, action) =&gt; newState
+
+
+<br>
+Действие (Action):
+
+<br>Объект, описывающий&nbsp;что&nbsp;нужно изменить в состоянии.
+<br>Обычно имеет поле&nbsp;type&nbsp;(строка), которое указывает на тип действия.
+<br>Может содержать дополнительные данные в других полях.
+<br>Пример:&nbsp;{ type: 'INCREMENT' },&nbsp;{ type: 'SET_NAME', payload: 'John Doe' }
+
+
+<br>
+Начальное состояние (Initial State):
+
+<br>Значение начального состояния, с которого начинается работа редуктора.
+<br>Может быть простым значением, массивом или объектом.
+
+
+<br>
+Функция&nbsp;useReducer:
+
+<br>Принимает редуктор и начальное состояние.
+<br>Возвращает массив из двух элементов:
+
+<br>Текущее состояние.
+<br>Функция&nbsp;dispatch, которая используется для отправки действий редуктору.
+
+
+<br>Синтаксис:&nbsp;const [state, dispatch] = useReducer(reducer, initialState);
+
+
+<br>Когда использовать&nbsp;useReducer?<br>
+<br>Когда логика состояния становится сложной и начинает разрастаться в&nbsp;useState.
+<br>Когда обновление состояния зависит от предыдущего состояния.
+<br>Когда нужно обрабатывать несколько связанных изменений состояния.
+<br>Когда нужно централизовать логику обновления состояния.
+<br>Для управления состоянием в сложных формах или списках.
+<br>Пример использования: Счетчик<br>import React, { useReducer } from 'react';
+
+// Редуктор
+const counterReducer = (state, action) =&gt; {
+  switch (action.type) {
+    case 'INCREMENT':
+      return { count: state.count + 1 };
+    case 'DECREMENT':
+      return { count: state.count - 1 };
+    case 'RESET':
+      return { count: 0 };
+    default:
+      return state;
+  }
+};
+
+const Counter = () =&gt; {
+  // Использование useReducer
+  const [state, dispatch] = useReducer(counterReducer, { count: 0 });
+
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Счетчик: {state.count}&lt;/h1&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: 'INCREMENT' })}&gt;Увеличить&lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: 'DECREMENT' })}&gt;Уменьшить&lt;/button&gt;
+      &lt;button onClick={() =&gt; dispatch({ type: 'RESET' })}&gt;Сбросить&lt;/button&gt;
+    &lt;/div&gt;
+  );
+};
+
+export default Counter;
+<br>Пошаговое объяснение:<br>
+<br>counterReducer:
+
+<br>Принимает&nbsp;state&nbsp;(текущее состояние счетчика,&nbsp;{ count: number }) и&nbsp;action&nbsp;(объект с полем&nbsp;type).
+<br>Использует&nbsp;switch&nbsp;для определения типа действия.
+<br>Возвращает&nbsp;новое&nbsp;состояние на основе действия.
+<br>Если действие не распознано, возвращает текущее состояние.
+
+
+<br>useReducer(counterReducer, { count: 0 }):
+
+<br>Инициализирует состояние счетчика значением&nbsp;{ count: 0 }.
+<br>Возвращает:
+
+<br>state: текущее состояние (по умолчанию&nbsp;{ count: 0 }).
+<br>dispatch: функция для отправки действий редуктору.
+
+
+
+
+<br>onClick&nbsp;handlers:
+
+<br>Вызывают&nbsp;dispatch&nbsp;с объектами действий, которые говорят редуктору&nbsp;что&nbsp;нужно изменить.
+<br>React автоматически вызывает редуктор с новым действием и обновляет состояние.
+
+
+<br>Преимущества&nbsp;useReducer:<br>
+<br>Прозрачность:&nbsp;Логика обновления состояния находится в одном месте (в редукторе).
+<br>Предсказуемость:&nbsp;Редуктор — чистая функция, что делает поведение состояния более предсказуемым.
+<br>Масштабируемость:&nbsp;Легче управлять сложным состоянием, чем с несколькими&nbsp;useState&nbsp;вызовами.
+<br>Тестируемость:&nbsp;Редукторы легко тестировать, т.к. они являются чистыми функциями.
+<br>Централизация:&nbsp;Позволяет централизовать логику обновления состояния, что делает код более организованным.
+]]></description><link>Теория\Секция 2. React\Hooks\useReducer.html</link><guid isPermaLink="false">Теория/Секция 2. React/Hooks/useReducer.md</guid><pubDate>Fri, 24 Jan 2025 17:11:10 GMT</pubDate></item><item><title><![CDATA[Что такое Ветка]]></title><description><![CDATA[ 
  <br>Ветка (branch) в Git - это отдельная копия проекта, которая позволяет разработчикам работать над своими изменениями независимо друг от друга, не мешая работе других.<br>Представьте ветку как отдельную ветвь на дереве. Она начинается от общей основы проекта, но может развиваться в своем собственном направлении.<br>Зачем нужны ветки?<br>
 <br>Параллельная разработка:&nbsp;Разработчики могут создавать ветки для работы над новыми функциями, исправлением ошибок или экспериментами, не влияя на основную ветку проекта.
 <br>Эксперименты:&nbsp;Ветка позволяет попробовать новые идеи, внести изменения и посмотреть, как они работают, не боясь испортить основную версию проекта.
