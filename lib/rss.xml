@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RMP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>RMP</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 04 Feb 2025 12:58:42 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 04 Feb 2025 12:58:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Практика №0. Простое использование JS в консоли браузера]]></title><description><![CDATA[<a class="tag" href="?query=tag:ТемаОсновы" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаОсновы</a> <a class="tag" href="?query=tag:Задание" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Задание</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RMP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>RMP</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 23 Feb 2025 19:32:57 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 23 Feb 2025 19:32:42 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Практика №0. Простое использование JS в консоли браузера]]></title><description><![CDATA[<a class="tag" href="?query=tag:ТемаОсновы" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаОсновы</a> <a class="tag" href="?query=tag:Задание" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Задание</a> 
  <br>Так как JS, в первую очередь, используется в браузере, то самое очевидное место где можно сразу опробовать этот язык - браузер.<br>В браузерах обычно есть консоль разработчика, где, собственно, используется JS.<br><a data-href="Как открыть консоль разработчика в браузерах" href="Как сделать\Как открыть консоль разработчика в браузерах.html" class="internal-link" target="_self" rel="noopener nofollow">Как открыть консоль разработчика в браузерах</a><br>Давайте попробуем немного поиграться.<br>Вот несколько примеров кодов, которые можно ввести в консоль разработчика браузера:<br>// Вывести сообщение в консоль
 console.log('Hello world!');
 
@@ -678,25 +678,30 @@ export default SettingsComponent;
 <br><a data-href="Git" href="Теория\Секция 2. React\VCS\Git.html" class="internal-link" target="_self" rel="noopener nofollow">Git</a>
 <br><a data-href="GitHub" href="Теория\Секция 2. React\VCS\GitHub.html" class="internal-link" target="_self" rel="noopener nofollow">GitHub</a>
 <br><a data-href="Списки элементов в React" href="Теория\Секция 2. React\Другое\Списки элементов в React.html" class="internal-link" target="_self" rel="noopener nofollow">Списки элементов в React</a>
-<br>Следующая тема: <a data-href="Тема №12. События и Ref." href="Темы\Секция 2. React\Тема №12. События и Ref..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №12. События и Ref.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №11. Git, GitHub и списки элементов в React..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №11. Git, GitHub и списки элементов в React..md</guid><pubDate>Fri, 24 Jan 2025 16:28:41 GMT</pubDate></item><item><title><![CDATA[Тема №12. События и Ref.]]></title><description><![CDATA[ 
+<br><a data-href="Практика №9. Использование git, github" href="Задания\Практика №9. Использование git, github.html" class="internal-link" target="_self" rel="noopener nofollow">Практика №9. Использование git, github</a>
+<br>Следующая тема: <a data-href="Тема №12. События и Ref." href="Темы\Секция 2. React\Тема №12. События и Ref..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №12. События и Ref.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №11. Git, GitHub и списки элементов в React..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №11. Git, GitHub и списки элементов в React..md</guid><pubDate>Sun, 23 Feb 2025 17:51:20 GMT</pubDate></item><item><title><![CDATA[Тема №12. События и Ref.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
  <br>
 <br><a data-href="События React" href="Теория\Секция 2. React\Другое\События React.html" class="internal-link" target="_self" rel="noopener nofollow">События React</a>
 <br><a data-href="ref в React" href="Теория\Секция 2. React\Другое\ref в React.html" class="internal-link" target="_self" rel="noopener nofollow">ref в React</a>
-<br>Следующая тема: <a data-href="Тема №13. Hooks." href="Темы\Секция 2. React\Тема №13. Hooks..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №13. Hooks.</a>]]></description><link>Темы\Секция 2. React\Тема №12. События и Ref..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №12. События и Ref..md</guid><pubDate>Thu, 09 Jan 2025 18:27:54 GMT</pubDate></item><item><title><![CDATA[Тема №13. Hooks.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
+<br>Следующая тема: <a data-href="Тема №13. Hooks." href="Темы\Секция 2. React\Тема №13. Hooks..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №13. Hooks.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №12. События и Ref..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №12. События и Ref..md</guid><pubDate>Sun, 23 Feb 2025 17:40:16 GMT</pubDate></item><item><title><![CDATA[Тема №13. Hooks.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
  <br>
 <br><a data-href="Что такое hooks в react" href="Теория\Секция 2. React\Термины\Что такое hooks в react.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое hooks в react</a>
 <br><a data-href="Как создавать пользовательские хуки React" href="Как сделать\Как создавать пользовательские хуки React.html" class="internal-link" target="_self" rel="noopener nofollow">Как создавать пользовательские хуки React</a>
-<br>Следующая тема: <a data-href="Тема №14. Routers." href="Темы\Секция 2. React\Тема №14. Routers..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №14. Routers.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a> ]]></description><link>Темы\Секция 2. React\Тема №13. Hooks..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №13. Hooks..md</guid><pubDate>Fri, 24 Jan 2025 17:17:51 GMT</pubDate></item><item><title><![CDATA[Тема №14. Routers.]]></title><description><![CDATA[ 
+<br>Следующая тема: <a data-href="Тема №14. Routers." href="Темы\Секция 2. React\Тема №14. Routers..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №14. Routers.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a> ]]></description><link>Темы\Секция 2. React\Тема №13. Hooks..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №13. Hooks..md</guid><pubDate>Fri, 24 Jan 2025 17:17:51 GMT</pubDate></item><item><title><![CDATA[Тема №14. Routers.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
  <br>
 <br><a data-href="Основы работы с маршрутизацией React" href="Теория\Секция 2. React\Маршрутизация\Основы работы с маршрутизацией React.html" class="internal-link" target="_self" rel="noopener nofollow">Основы работы с маршрутизацией React</a>
 <br><a data-href="Практика №10. Социальная сеть. Верстка" href="Задания\Практика №10. Социальная сеть. Верстка.html" class="internal-link" target="_self" rel="noopener nofollow">Практика №10. Социальная сеть. Верстка</a>
-<br>Следующая тема: <a data-href="Тема №15. Запросы к API." href="Темы\Секция 2. React\Тема №15. Запросы к API..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №15. Запросы к API.</a>]]></description><link>Темы\Секция 2. React\Тема №14. Routers..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №14. Routers..md</guid><pubDate>Tue, 04 Feb 2025 12:48:39 GMT</pubDate></item><item><title><![CDATA[Тема №15. Запросы к API.]]></title><description><![CDATA[ 
+<br>Следующая тема: <a data-href="Тема №15. Запросы к API." href="Темы\Секция 2. React\Тема №15. Запросы к API..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №15. Запросы к API.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №14. Routers..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №14. Routers..md</guid><pubDate>Sun, 23 Feb 2025 17:40:25 GMT</pubDate></item><item><title><![CDATA[Тема №15. Запросы к API.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
  <br>
 <br><a data-href="Что такое API" href="Теория\Секция 2. React\Термины\Что такое API.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое API</a>
 <br><a data-href="Асинхронность React" href="Теория\Секция 2. React\API\Асинхронность React.html" class="internal-link" target="_self" rel="noopener nofollow">Асинхронность React</a>
 <br><a data-href="Запросы fetch" href="Теория\Секция 2. React\API\Запросы fetch.html" class="internal-link" target="_self" rel="noopener nofollow">Запросы fetch</a>
-<br><a data-href="Практика №12. Социальная сеть. Связь с Backend" href="Темы\Секция 2. React\Практика №12. Социальная сеть. Связь с Backend.html" class="internal-link" target="_self" rel="noopener nofollow">Практика №12. Социальная сеть. Связь с Backend</a>
-<br>Следующая тема: <a data-href="Тема №16. TypeScript." href="Темы\Секция 2. React\Тема №16. TypeScript..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №16. TypeScript.</a>]]></description><link>Темы\Секция 2. React\Тема №15. Запросы к API..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №15. Запросы к API..md</guid><pubDate>Tue, 04 Feb 2025 12:50:04 GMT</pubDate></item><item><title><![CDATA[Арифметические операторы]]></title><description><![CDATA[ 
+<br><a data-href="Практика №12. Социальная сеть. Связь с Backend" href="Задания\Практика №12. Социальная сеть. Связь с Backend.html" class="internal-link" target="_self" rel="noopener nofollow">Практика №12. Социальная сеть. Связь с Backend</a>
+<br>Следующая тема: <a data-href="Тема №16. TypeScript." href="Темы\Секция 2. React\Тема №16. TypeScript..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №16. TypeScript.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №15. Запросы к API..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №15. Запросы к API..md</guid><pubDate>Sun, 23 Feb 2025 17:40:28 GMT</pubDate></item><item><title><![CDATA[Тема №16. TypeScript.]]></title><description><![CDATA[<a class="tag" href="?query=tag:Тема" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Тема</a> 
+ <br>В течении этой темы мы изучим целый язык программирования TypeScript.<br>
+<br><a data-href="Что такое TypeScript, динамическая и статическая типизация" href="Теория\Секция 2. React\TypeScript\Что такое TypeScript, динамическая и статическая типизация.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое TypeScript, динамическая и статическая типизация</a>
+<br><a data-href="Как производить типизацию TypeScript" href="Теория\Секция 2. React\TypeScript\Как производить типизацию TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">Как производить типизацию TypeScript</a>
+<br>Следующая тема: <a data-href="Тема №17. Создание структур типов." href="Темы\Секция 2. React\Тема №17. Создание структур типов..html" class="internal-link" target="_self" rel="noopener nofollow">Тема №17. Создание структур типов.</a><br><a href=".?query=tag:Тема" class="tag" target="_blank" rel="noopener nofollow">#Тема</a>]]></description><link>Темы\Секция 2. React\Тема №16. TypeScript..html</link><guid isPermaLink="false">Темы/Секция 2. React/Тема №16. TypeScript..md</guid><pubDate>Sun, 23 Feb 2025 17:49:20 GMT</pubDate></item><item><title><![CDATA[Арифметические операторы]]></title><description><![CDATA[ 
  <br>Самые простые операторы - это арифметические. <br>1. Сложение (+):<br>
 <br>Пример:&nbsp;5 + 3 = 8
 <br>Описание:&nbsp;Складывает два операнда.
@@ -4013,7 +4018,562 @@ export default Counter;
 <br>Масштабируемость:&nbsp;Легче управлять сложным состоянием, чем с несколькими&nbsp;useState&nbsp;вызовами.
 <br>Тестируемость:&nbsp;Редукторы легко тестировать, т.к. они являются чистыми функциями.
 <br>Централизация:&nbsp;Позволяет централизовать логику обновления состояния, что делает код более организованным.
-]]></description><link>Теория\Секция 2. React\Hooks\useReducer.html</link><guid isPermaLink="false">Теория/Секция 2. React/Hooks/useReducer.md</guid><pubDate>Fri, 24 Jan 2025 17:11:10 GMT</pubDate></item><item><title><![CDATA[Что такое Ветка]]></title><description><![CDATA[ 
+]]></description><link>Теория\Секция 2. React\Hooks\useReducer.html</link><guid isPermaLink="false">Теория/Секция 2. React/Hooks/useReducer.md</guid><pubDate>Fri, 24 Jan 2025 17:11:10 GMT</pubDate></item><item><title><![CDATA[Как производить типизацию TypeScript]]></title><description><![CDATA[ 
+ <br>То, ради чего мы используем TypeScript - типизация.<br>
+Существует два способа типизировать - <a data-tooltip-position="top" aria-label="Способы типизации TypeScript" data-href="Способы типизации TypeScript" href="Теория\Секция 2. React\TypeScript\Способы типизации TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">явным указанием и выводом типов</a>.<br>Типизировать возможно все: <a data-tooltip-position="top" aria-label="Типизация примитивных типов TypeScript" data-href="Типизация примитивных типов TypeScript" href="Теория\Секция 2. React\TypeScript\Типизация примитивных типов TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">примитивные типы</a>,  <a data-tooltip-position="top" aria-label="Типизация объектов, списков и кортежей TypeScript" data-href="Типизация объектов, списков и кортежей TypeScript" href="Теория\Секция 2. React\TypeScript\Типизация объектов, списков и кортежей TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">объекты (в том числе коллекции)</a> и <a data-tooltip-position="top" aria-label="Типизация функций TypeScript" data-href="Типизация функций TypeScript" href="Теория\Секция 2. React\TypeScript\Типизация функций TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">функций в частности</a>.<br>Кроме стандартных типов, TypeScript предоставляет еще типы <a data-tooltip-position="top" aria-label="Типизация any и unknown TypeScript" data-href="Типизация any и unknown TypeScript" href="Теория\Секция 2. React\TypeScript\Типизация any и unknown TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">any и unknown</a>.]]></description><link>Теория\Секция 2. React\TypeScript\Как производить типизацию TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Как производить типизацию TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 17:38:17 GMT</pubDate></item><item><title><![CDATA[Способы типизации TypeScript]]></title><description><![CDATA[ 
+ <br><br>Это самый прямой способ типизации. Вы явно указываете тип переменной, параметра функции, возвращаемого значения функции и т.д. после двоеточия (:).<br>let name: string = "Иван";
+let age: number = 30;
+let isAdult: boolean = true;
+let prices: number[] = [10, 20, 30]; // Массив чисел
+let user: { name: string; age: number } = { name: "Иван", age: 30 }; // Объект с определенными свойствами
+<br><br>TypeScript достаточно умен, чтобы автоматически выводить типы переменных в некоторых случаях, когда вы их явно не указываете. Компилятор анализирует код и пытается определить тип на основе присвоенного значения.<br>let name = "Иван"; // TypeScript выводит, что name имеет тип string
+let age = 30; // TypeScript выводит, что age имеет тип number
+let isAdult = true; // TypeScript выводит, что isAdult имеет тип boolean
+<br><br>
+<br>Явное указание типов:
+
+<br>Когда тип не может быть однозначно выведен.
+<br>Для улучшения читаемости кода, особенно в сложных случаях.
+<br>При работе с функциями, которые принимают или возвращают сложные типы.
+<br>Когда вы хотите явно контролировать тип переменной.
+
+
+<br>Вывод типов:
+
+<br>Когда тип может быть легко выведен.
+<br>Для уменьшения количества кода и повышения его лаконичности.
+<br>В простых случаях, когда нет необходимости явно указывать тип.
+
+
+]]></description><link>Теория\Секция 2. React\TypeScript\Способы типизации TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Способы типизации TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 15:27:39 GMT</pubDate></item><item><title><![CDATA[Типизация объектов, списков и кортежей TypeScript]]></title><description><![CDATA[ 
+ <br>Эти типы позволяют описывать более сложные структуры данных и делают ваш код более надежным и понятным.<br><br>Тип&nbsp;object&nbsp;представляет собой любой не примитивный тип. Это значит, что переменная типа&nbsp;object&nbsp;может быть любым объектом JavaScript, включая массивы, функции и объекты, созданные с помощью классов.<br>Когда использовать:<br>
+<br>Когда вам нужно указать, что переменная должна быть объектом, но вы не знаете или не хотите указывать конкретную структуру этого объекта.
+<br>Однако, в большинстве случаев, лучше использовать более конкретные типы (интерфейсы, классы или литеральные типы объектов), чтобы обеспечить более строгую проверку типов.
+<br>Примеры:
+let myObject: object = { name: "Иван", age: 30 };
+myObject = [1, 2, 3]; // OK, массивы тоже объекты
+myObject = function() { console.log("Привет"); }; // OK, функции тоже объекты
+
+//  Нельзя получить доступ к свойствам объекта, если не привести его к конкретному типу.
+// console.log(myObject.name); // Ошибка: Property 'name' does not exist on type 'object'.
+
+let betterObject: { name: string; age: number } = { name: "Петр", age: 25 };
+console.log(betterObject.name); // OK
+
+
+<br>&nbsp;object&nbsp;не предоставляет информации о структуре объекта. Вы не можете получить доступ к свойствам объекта, если не приведете его к более конкретному типу.<br>Что такое интерфейсы вы узнаете чуть позже, сейчас же посмотрим на пример литерального типа объекта.<br>По сути, оно уже есть примере, а именно:<br>    let betterObject: { name: string; age: number } = { name: "Петр", age: 25 };
+<br>{ name: string; age: number }<br>Когда мы создаем переменную, можно указать тип следующим образом:<br>
+let myObject: { name: string; age: number } = { name: "Иван", age: 30 };
+
+myObject.age++; // Ok, мы знаем что у этого объекта есть числовое поле age
+
+// myObject = [1, 2, 3]; Уже выдаст ошибку
+
+console.log(myObject.name); // OK
+
+<br><br>Массив - это упорядоченная коллекция элементов одного типа. В TypeScript есть два способа указать тип массива:<br>
+<br>
+Тип[]&nbsp;(Array Type Notation)
+
+<br>
+Array&lt;Тип&gt;&nbsp;(Generic Array Type)
+
+<br>
+Когда использовать:
+
+<br>Когда вам нужно хранить коллекцию элементов одного типа.
+
+
+<br>
+Примеры:
+let numbers: number[] = [1, 2, 3, 4, 5]; // Массив чисел
+let names: string[] = ["Иван", "Петр", "Мария"]; // Массив строк
+let booleans: boolean[] = [true, false, true]; // Массив логических значений
+
+let numbers2: Array&lt;number&gt; = [6, 7, 8, 9, 10]; // То же самое, используя Generic Array Type
+
+// Массив объектов
+interface User {
+  name: string;
+  age: number;
+}
+
+let users: User[] = [
+  { name: "Иван", age: 30 },
+  { name: "Петр", age: 25 },
+];
+
+// Массив, который может содержать элементы разных типов (используйте объединение типов)
+let mixedArray: (string | number)[] = [1, "два", 3, "четыре"];
+
+
+<br>
+Важные моменты:
+
+<br>TypeScript проверяет, чтобы все элементы массива соответствовали указанному типу.<br>
+
+<br>Если вам нужен массив, который может содержать элементы разных типов, используйте объединение типов (Union Types).<br>
+
+<br>Можно использовать&nbsp;readonly&nbsp;для создания массива, который нельзя изменить после создания:
+let readonlyNumbers: readonly number[] = [1, 2, 3];
+// readonlyNumbers.push(4); // Ошибка: Property 'push' does not exist on type 'readonly number[]'.
+
+
+
+
+<br>3.&nbsp;tuple&nbsp;(Кортеж):<br>
+<br>Описание:&nbsp;Кортеж - это массив с фиксированным количеством элементов, где каждый элемент может иметь свой собственный тип. В отличие от обычного массива, в кортеже важен порядок и тип каждого элемента.<br>
+
+<br>Когда использовать:
+
+<br>Когда вам нужно представить структуру данных с фиксированным количеством элементов разных типов.
+<br>Когда важен порядок элементов.
+
+
+<br>Примеры:
+let myTuple: [string, number, boolean] = ["Привет", 10, true]; // Кортеж: строка, число и логическое значение
+// let myTuple: [string, number, boolean] = [10, "Привет", true]; // Ошибка: Type 'number' is not assignable to type 'string'.
+
+let point: [number, number] = [10, 20]; // Координаты точки (x, y)
+let color: [number, number, number] = [255, 0, 0]; // RGB цвет
+
+// Необязательные элементы в кортеже (используйте ?)
+let optionalTuple: [string, number?] = ["Имя"];
+optionalTuple = ["Имя", 30];
+
+// Named Tuples (полезно для читаемости)
+type NamedPerson = [name: string, age: number];
+const namedPerson: NamedPerson = ["Alice", 30];
+console.log(namedPerson[0]); // Alice (более понятно, чем просто namedPerson[0])
+
+
+<br>Важные моменты:
+
+<br>TypeScript проверяет, чтобы количество элементов и тип каждого элемента в кортеже соответствовали объявленному типу.
+<br>Кортежи полезны для представления структур данных, где важен порядок и тип каждого элемента.
+<br>Можно использовать необязательные элементы (?) в кортеже.
+<br>Named Tuples (именованные кортежи) улучшают читаемость кода.
+
+
+]]></description><link>Теория\Секция 2. React\TypeScript\Типизация объектов, списков и кортежей TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Типизация объектов, списков и кортежей TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 16:52:38 GMT</pubDate></item><item><title><![CDATA[Типизация примитивных типов TypeScript]]></title><description><![CDATA[ 
+ <br>К примитивным данным мы относим string,&nbsp;number,&nbsp;boolean,&nbsp;null, и&nbsp;undefined.<br>Типизировать их проще всего (рассматривать будем только явную типизацию):<br>1.&nbsp;string&nbsp;(Строка):<br>
+<br>Описание:&nbsp;Представляет собой последовательность символов Unicode. Строки используются для представления текста.
+<br>Примеры:
+let message: string = "Привет, мир!";
+let name: string = 'Иван'; // Можно использовать одинарные кавычки
+let templateLiteral: string = `Меня зовут ${name}`; // Интерполяция строк
+
+
+<br>Особенности:
+
+<br>Строки в TypeScript неизменяемые (immutable). Это означает, что нельзя изменить существующую строку. Любые операции со строками (например,&nbsp;toUpperCase(),&nbsp;substring()) возвращают новую строку.
+
+
+<br>2.&nbsp;number&nbsp;(Число):<br>
+<br>Описание:&nbsp;Представляет собой числовые значения. В TypeScript, как и в JavaScript, все числа представлены числами с плавающей точкой двойной точности (64-битный формат IEEE 754). Нет отдельных типов для целых чисел (int) и чисел с плавающей точкой (float).
+<br>Примеры:
+let age: number = 30;
+let price: number = 99.99;
+let largeNumber: number = 123_456_789; // Разделители для удобочитаемости (доступно с ES2020)
+let binary: number = 0b1010;  // Двоичная запись
+let octal: number = 0o744;  // Восьмеричная запись
+let hex: number = 0xf00d;  // Шестнадцатеричная запись
+
+
+<br>Особенности:
+
+<br>TypeScript поддерживает все числовые литералы, которые поддерживаются в JavaScript (десятичные, двоичные, восьмеричные, шестнадцатеричные).
+<br>Разделители (подчеркивания&nbsp;_) можно использовать для улучшения читаемости больших чисел (начиная с ES2020). Они не влияют на значение числа.
+<br>Специальные числовые значения:&nbsp;NaN&nbsp;(Not a Number),&nbsp;Infinity,&nbsp;-Infinity.
+
+
+<br>3.&nbsp;boolean&nbsp;(Логическое значение):<br>
+<br>Описание:&nbsp;Представляет собой логическое значение, которое может быть либо&nbsp;true&nbsp;(истина), либо&nbsp;false&nbsp;(ложь).
+<br>Примеры:
+let isAdult: boolean = true;
+let isLoggedIn: boolean = false;
+
+
+<br>4.&nbsp;null:<br>
+<br>Описание:&nbsp;Представляет собой отсутствие значения.&nbsp;null&nbsp;- это специальное значение, которое означает, что переменная намеренно не имеет никакого значения.
+<br>Примеры:
+let user: string | null = null; // user может быть строкой или null
+user = "Иван";
+user = null; // Теперь user снова null
+
+
+<br>Особенности:
+
+<br>В TypeScript, по умолчанию,&nbsp;null&nbsp;и&nbsp;undefined&nbsp;являются подтипами всех других типов. Это означает, что можно присвоить&nbsp;null&nbsp;или&nbsp;undefined&nbsp;переменной любого типа. Однако это может привести к ошибкам во время выполнения, если вы не будете осторожны.
+<br>Для предотвращения ошибок, связанных с&nbsp;null&nbsp;и&nbsp;undefined, рекомендуется использовать флаг&nbsp;strictNullChecks&nbsp;в файле&nbsp;tsconfig.json. Когда этот флаг включен,&nbsp;null&nbsp;и&nbsp;undefined&nbsp;не являются подтипами других типов, и вы должны явно указывать, что переменная может быть&nbsp;null&nbsp;или&nbsp;undefined&nbsp;с помощью оператора объединения типов (|).
+
+
+<br>5.&nbsp;undefined:<br>
+<br>Описание:&nbsp;Представляет собой значение, которое присваивается переменной, которая была объявлена, но ей не было присвоено никакое значение. Также возвращается функциями, которые не возвращают никакого значения явно.
+<br>Примеры:
+let age: number; // age объявлена, но значение не присвоено.  Значение age - undefined
+console.log(age); // undefined
+
+let result: number | undefined; // result может быть числом или undefined
+
+function doSomething(): undefined {
+    return undefined; // Явное возвращение undefined
+}
+
+function doSomethingElse(): void {
+  // Функция ничего не возвращает явно, что эквивалентно возвращению undefined
+}
+
+
+<br>Особенности:
+
+<br>Как и&nbsp;null,&nbsp;undefined&nbsp;может быть источником ошибок, если вы не будете осторожны.
+<br>Рекомендации по использованию&nbsp;strictNullChecks&nbsp;также применимы к&nbsp;undefined.
+
+
+<br>Важные моменты:<br>
+<br>strictNullChecks:&nbsp;Включение этой опции в&nbsp;tsconfig.json&nbsp;сильно меняет поведение&nbsp;null&nbsp;и&nbsp;undefined. Обязательно используйте эту опцию в новых проектах, чтобы избежать неожиданных ошибок.<br>
+
+<br>Optional Chaining (?.) и Nullish Coalescing (??):&nbsp;Эти операторы позволяют безопасно работать со значениями, которые могут быть&nbsp;null&nbsp;или&nbsp;undefined.
+
+<br>Optional Chaining (?.): Позволяет безопасно получать доступ к свойствам объекта, которые могут быть&nbsp;null&nbsp;или&nbsp;undefined. Если свойство равно&nbsp;null&nbsp;или&nbsp;undefined, выражение возвращает&nbsp;undefined&nbsp;без выброса ошибки.
+let user: { address?: { street?: string } } = {};
+let street = user?.address?.street; // street будет undefined, если user или user.address равны null или undefined
+
+
+<br>Nullish Coalescing (??):&nbsp;Позволяет предоставить значение по умолчанию, если переменная равна&nbsp;null&nbsp;или&nbsp;undefined.
+let name: string | null = null;
+let displayName = name ?? "Гость"; // displayName будет "Гость", если name равно null или undefined
+
+
+
+
+<br>Пример с использованием всех типов:<br>let productName: string = "Ноутбук";
+let price: number = 1200.50;
+let isAvailable: boolean = true;
+let discount: number | null = null; // Может быть скидка или нет
+let description: string | undefined; // Описание может быть не указано
+
+if (isAvailable) {
+  description = "Отличный ноутбук для работы и развлечений!";
+}
+
+console.log(`Название: ${productName}, Цена: ${price}, Доступен: ${isAvailable}, Скидка: ${discount ?? 0}, Описание: ${description ?? "Нет описания"}`);
+]]></description><link>Теория\Секция 2. React\TypeScript\Типизация примитивных типов TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Типизация примитивных типов TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 17:25:57 GMT</pubDate></item><item><title><![CDATA[Типизация функций TypeScript]]></title><description><![CDATA[ 
+ <br>Хоть, технически, функции относятся к объектам, у них есть свои особенности типизации.<br>В частности, это указание типов параметров и возвращаемого значения. Это основной способ типизации функций. Вы явно указываете типы параметров и возвращаемого значения функции после двоеточия (:).<br>// Функция, принимающая два числа и возвращающая число
+function add(x: number, y: number): number {
+  return x + y;
+}
+
+// Функция, принимающая имя (строку) и возвращающая приветствие (строку)
+function greet(name: string): string {
+  return `Привет, ${name}!`;
+}
+
+// Функция, не возвращающая значения (void)
+function logMessage(message: string): void {
+  console.log(message);
+}
+<br>Тут можно увидеть <a data-tooltip-position="top" aria-label="void, never типы TypeScript" data-href="void, never типы TypeScript" href="Теория\Секция 2. React\TypeScript\void, never типы TypeScript.html" class="internal-link" target="_self" rel="noopener nofollow">void, который ничего не возвращает, помимо него существует еще never</a><br>При использовании анонимных функций (например, в колбэках или присваивании переменной), можно указать тип функции с помощью типа function expression.<br>// Функция, принимающая два числа и возвращающая число
+const multiply: (x: number, y: number) =&gt; number = function(x, y) {
+  return x * y;
+};
+
+// Функция, принимающая массив чисел и возвращающая их сумму
+const sumArray: (numbers: number[]) =&gt; number = function(numbers) {
+  let sum = 0;
+  for (const number of numbers) {
+    sum += number;
+  }
+  return sum;
+};
+<br>Оно так же работает если присвоить полю объекта функцию:<br>
+function add(x: number, y: number): number {
+  return x + y;
+}
+
+let objectWithFunction: {
+	value1: string,
+	func(x: number, y: number): number
+} = {value1: "Обычное поле с строкой", func:add}
+
+<br>Вы можете указать, что параметр функции является необязательным, добавив знак вопроса (?) после имени параметра. Необязательные параметры должны идти после обязательных параметров.<br>// Функция, принимающая имя и фамилию (фамилия необязательна)
+function getFullName(firstName: string, lastName?: string): string {
+  if (lastName) {
+    return `${firstName} ${lastName}`;
+  } else {
+    return firstName;
+  }
+}
+
+console.log(getFullName("Иван")); // Иван
+console.log(getFullName("Иван", "Иванов")); // Иван Иванов
+<br>В случаях когда вы используете значения по умолчанию для параметров функции, типы указывать можно следующим образом:<br>// Функция, принимающая имя и приветствие (приветствие по умолчанию "Привет")
+function greetWithGreeting(name: string, greeting: string = "Привет"): string {
+  return `${greeting}, ${name}!`;
+}
+
+console.log(greetWithGreeting("Иван")); // Привет, Иван!
+console.log(greetWithGreeting("Иван", "Здравствуйте")); // Здравствуйте, Иван!
+<br>Rest параметры позволяют функции принимать переменное количество аргументов одного типа. Rest параметр должен быть последним параметром в списке параметров функции.<br>// Функция, принимающая имя и произвольное количество чисел
+function sumNumbers(name: string, ...numbers: number[]): string {
+  let sum = 0;
+  for (const number of numbers) {
+    sum += number;
+  }
+  return `${name}, сумма чисел: ${sum}`;
+}
+
+console.log(sumNumbers("Иван", 1, 2, 3)); // Иван, сумма чисел: 6
+console.log(sumNumbers("Петр", 10, 20, 30, 40)); // Петр, сумма чисел: 100
+<br>Вы, также, можете создавать перегрузки функций. Перегрузка функций позволяет определять несколько сигнатур для одной и той же функции. Компилятор TypeScript выбирает правильную сигнатуру в зависимости от типов аргументов, переданных при вызове функции.<br>// Перегрузки функции greet3
+function greet3(name: string): string;
+function greet3(firstName: string, lastName: string): string;
+
+// Реализация функции (должна быть совместима со всеми перегрузками)
+function greet3(nameOrFirstName: string, lastName?: string): string {
+  if (lastName) {
+    return `Привет, ${nameOrFirstName} ${lastName}!`;
+  } else {
+    return `Привет, ${nameOrFirstName}!`;
+  }
+}
+
+console.log(greet3("Иван")); // Привет, Иван!
+console.log(greet3("Иван", "Иванов")); // Привет, Иван Иванов!
+<br>Generic-типы (Дженерик) позволяют писать обобщенные функции, которые могут работать с разными типами данных, не теряя при этом информацию о типах.<br>// Функция, принимающая значение любого типа и возвращающая его
+function identity&lt;T&gt;(arg: T): T {
+  return arg;
+}
+
+let myString: string = identity&lt;string&gt;("Привет");
+let myNumber: number = identity&lt;number&gt;(10);
+
+// Функция, принимающая массив элементов любого типа и возвращающая первый элемент
+function getFirstElement&lt;T&gt;(arr: T[]): T | undefined {
+  return arr[0];
+}
+
+let firstString: string | undefined = getFirstElement&lt;string&gt;(["Иван", "Петр"]);
+let firstNumber: number | undefined = getFirstElement&lt;number&gt;([1, 2, 3]);
+]]></description><link>Теория\Секция 2. React\TypeScript\Типизация функций TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Типизация функций TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 17:23:23 GMT</pubDate></item><item><title><![CDATA[Типизация any и unknown TypeScript]]></title><description><![CDATA[ 
+ <br><br>Тип&nbsp;any&nbsp;отключает проверку типов для переменной. Это означает, что вы можете присвоить переменной типа&nbsp;any&nbsp;любое значение и вызывать любые методы, даже если они не существуют.<br>
+<br>Пример:
+let something: any = "Привет";
+something = 10;
+something.toUpperCase(); // Это не вызовет ошибку компиляции, хотя something может быть числом
+
+
+<br>Когда использовать&nbsp;any&nbsp;(крайне редко):<br>
+<br>Когда вы не знаете тип переменной во время разработки (например, при работе с данными из внешнего API).
+<br>Когда вы хотите быстро прототипировать код и не беспокоиться о типах.
+<br>Важно:&nbsp;Старайтесь избегать использования&nbsp;any, так как это снижает преимущества TypeScript и может привести к ошибкам во время выполнения. Лучше использовать более конкретные типы или&nbsp;unknown&nbsp;(о котором ниже).
+<br><br>Тип&nbsp;unknown&nbsp;похож на&nbsp;any, но он более строгий. Вы не можете использовать переменные типа&nbsp;unknown&nbsp;напрямую, пока не убедитесь, что они имеют нужный тип.<br>
+<br>Пример:
+let value: unknown = "Привет";
+
+// console.log(value.toUpperCase()); // Ошибка: Object is of type 'unknown'.
+
+if (typeof value === "string") {
+  console.log(value.toUpperCase()); // OK, теперь TypeScript знает, что value - строка
+}
+
+
+<br>Когда использовать&nbsp;unknown:
+
+<br>Когда вы не знаете тип переменной, но хотите обеспечить безопасность типов.
+<br>Вместо&nbsp;any, когда хотите избежать случайного использования переменной с неправильным типом.
+
+
+]]></description><link>Теория\Секция 2. React\TypeScript\Типизация any и unknown TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Типизация any и unknown TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 15:28:30 GMT</pubDate></item><item><title><![CDATA[Что такое динамическая типизация]]></title><description><![CDATA[ 
+ <br>В языках с динамической типизацией типы переменных определяются&nbsp;во время выполнения&nbsp;программы. Это означает, что когда вы пишете код, вы не указываете типы переменных явно. Тип переменной определяется, когда ей присваивается значение. Например JS, которым мы пользовались до этого, использует как раз динамическую типизацию.<br><br>Интерпретатор (или виртуальная машина) JavaScript определяет тип переменной в тот момент, когда вы присваиваете ей значение.<br>let x = 10; // x - число (number)
+x = "Привет"; // Теперь x - строка (string)
+<br>
+<br>
+Преимущества:
+
+<br>Гибкость и скорость разработки:&nbsp;Код можно писать быстрее, так как не нужно думать о типах на ранних этапах разработки.
+<br>Легкость прототипирования:&nbsp;Быстрое изменение типов переменных позволяет легко экспериментировать с кодом.
+
+
+<br>
+Недостатки:
+
+<br>Ошибки во время выполнения:&nbsp;Многие ошибки, связанные с несовместимостью типов, обнаруживаются только во время выполнения программы, что может привести к неожиданным сбоям.
+<br>Сложность отладки:&nbsp;Отладка ошибок, связанных с типами, может быть сложной, особенно в больших проектах.
+<br>Меньше поддержки со стороны IDE:&nbsp;Редакторы кода (IDE) не могут предоставить полную информацию о типах переменных, что усложняет автодополнение, рефакторинг и навигацию по коду.
+<br>Меньше самодокументированности:&nbsp;Отсутствие явного указания типов делает код менее понятным и сложным для понимания другими разработчиками.
+
+
+]]></description><link>Теория\Секция 2. React\TypeScript\Что такое динамическая типизация.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Что такое динамическая типизация.md</guid><pubDate>Sun, 23 Feb 2025 14:13:11 GMT</pubDate></item><item><title><![CDATA[Что такое статическая типизация]]></title><description><![CDATA[ 
+ <br>В языках со статической типизацией типы переменных должны быть определены&nbsp;во время написания кода (во время компиляции). Это означает, что вы должны явно указать тип каждой переменной, параметра функции, возвращаемого значения и т.д.<br>Компилятор языка проверяет типы переменных на этапе компиляции, до запуска программы. Если компилятор обнаруживает ошибки, связанные с несовместимостью типов, он выдает ошибку и не позволяет программе запуститься.<br>let x: number = 10; // x - число (number)
+x = "Привет"; // Ошибка компиляции: Type 'string' is not assignable to type 'number'.
+<br>
+<br>
+Преимущества:
+
+<br>Раннее обнаружение ошибок:&nbsp;Много ошибок обнаруживаются на этапе компиляции, что значительно снижает вероятность возникновения ошибок во время выполнения.
+<br>Более надежный код:&nbsp;Статическая типизация обеспечивает большую надежность кода, так как компилятор проверяет типы переменных и предотвращает несовместимость типов.
+<br>Улучшенная читаемость и понимание кода:&nbsp;Явное указание типов делает код более понятным и самодокументированным. Легче понять, какие типы данных ожидаются и возвращаются функциями.
+<br>Улучшенная поддержка IDE:&nbsp;IDE предоставляют более точные подсказки, автодополнение, рефакторинг и навигацию по коду.
+<br>Более легкий рефакторинг:&nbsp;Изменение типа переменной автоматически затрагивает все места, где она используется, что позволяет безопасно проводить рефакторинг больших объемов кода.
+
+
+<br>
+Недостатки:
+
+<br>Более сложная разработка:&nbsp;Требуется больше усилий при написании кода, так как нужно указывать типы переменных.
+<br>Больше времени на компиляцию:&nbsp;Компиляция кода может занимать больше времени, так как компилятор должен проверять типы.
+
+
+]]></description><link>Теория\Секция 2. React\TypeScript\Что такое статическая типизация.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Что такое статическая типизация.md</guid><pubDate>Sun, 23 Feb 2025 14:14:18 GMT</pubDate></item><item><title><![CDATA[Что такое TypeScript, динамическая и статическая типизация]]></title><description><![CDATA[ 
+ <br>TypeScript — это&nbsp;язык программирования, который представляет собой&nbsp;надмножество JavaScript. Это значит, что любой валидный JavaScript-код автоматически является валидным TypeScript-кодом. TypeScript добавляет к JavaScript статические типы, классы, интерфейсы и другие возможности, которые облегчают разработку больших и сложных приложений. В конечном итоге, TypeScript-код компилируется в обычный JavaScript, который может быть выполнен в любом современном браузере или Node.js.<br>Добавляя&nbsp;статическую типизацию. TypeScript можно представить себе как “супер-JavaScript” с дополнительными возможностями.<br>Перед тем как понять что такое статическая типизация, стоит еще узнать про динамическую типизацию подробнее.<br><a data-href="Что такое динамическая типизация" href="Теория\Секция 2. React\TypeScript\Что такое динамическая типизация.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое динамическая типизация</a><br>
+<a data-href="Что такое статическая типизация" href="Теория\Секция 2. React\TypeScript\Что такое статическая типизация.html" class="internal-link" target="_self" rel="noopener nofollow">Что такое статическая типизация</a><br>Сравнение динамической и статической типизации:<br>]]></description><link>Теория\Секция 2. React\TypeScript\Что такое TypeScript, динамическая и статическая типизация.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Что такое TypeScript, динамическая и статическая типизация.md</guid><pubDate>Sun, 23 Feb 2025 14:16:55 GMT</pubDate></item><item><title><![CDATA[Enum TypeScript]]></title><description><![CDATA[ 
+ <br>Перечисление (enum) - это способ дать понятные имена набору числовых значений. Перечисления делают код более читаемым и понятным, заменяя числовые константы на более осмысленные имена.<br>
+<br>Когда использовать:
+
+<br>Когда вам нужно представить набор связанных констант.
+<br>Когда вы хотите сделать код более читаемым и понятным.
+
+
+<br>Примеры:
+// Числовое перечисление (Numeric Enum)
+enum Direction {
+  North, // 0
+  South, // 1
+  East,  // 2
+  West   // 3
+}
+
+let myDirection: Direction = Direction.North;
+console.log(myDirection); // 0
+console.log(Direction[myDirection]); // North (обратный поиск)
+
+// Можно задать начальное значение
+enum StatusCode {
+  OK = 200,
+  NotFound = 404,
+  InternalServerError = 500
+}
+
+let statusCode: StatusCode = StatusCode.OK;
+console.log(statusCode); // 200
+
+// Строковое перечисление (String Enum)
+enum Media {
+  Newspaper = "NEWSPAPER",
+  Newsletter = "NEWSLETTER",
+  Magazine = "MAGAZINE"
+}
+
+let mediaType: Media = Media.Newsletter;
+console.log(mediaType); // NEWSLETTER
+
+// Гетерогенное перечисление (Heterogeneous Enum) (лучше избегать)
+enum Answer {
+  Yes = 1,
+  No = "No",
+}
+
+// const enum (Const Enums) (значения подставляются на этапе компиляции)
+const enum Sizes {
+    Small,
+    Medium,
+    Large
+}
+
+let mySize: Sizes = Sizes.Medium;
+
+
+<br>Важные моменты:
+
+<br>По умолчанию, перечисления начинаются с 0 и автоматически увеличиваются на 1.
+<br>Можно явно задать значения для членов перечисления.
+<br>Строковые перечисления более читаемые, чем числовые.
+<br>const enum&nbsp;заменяются своими значениями на этапе компиляции, что может улучшить производительность, но ограничивает возможности использования (например, нельзя использовать&nbsp;const enum&nbsp;для обратного поиска).
+
+
+]]></description><link>Теория\Секция 2. React\TypeScript\Enum TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/Enum TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 17:28:06 GMT</pubDate></item><item><title><![CDATA[<code>void</code>]]></title><description><![CDATA[ 
+ <br>void&nbsp;и&nbsp;never оба используются для указания отсутствия значения, но делают это в разных контекстах и имеют разные значения.<br><br>Тип&nbsp;void&nbsp;используется для обозначения того, что функция&nbsp;не возвращает никакого значения. Это не значит, что функция ничего не делает, а просто что она не возвращает никакого полезного результата.<br>Когда использовать:<br>
+<br>
+Когда функция выполняет какие-то действия (например, изменяет состояние, выводит что-то в консоль), но не возвращает никакого значения явно с помощью&nbsp;return.
+
+<br>
+Когда функция не имеет оператора&nbsp;return&nbsp;или имеет&nbsp;return;&nbsp;без возвращаемого значения.
+function logMessage(message: string): void {
+  console.log(message); // Функция выводит сообщение в консоль, но ничего не возвращает
+}
+
+function doSomething(): void {
+  // Функция может выполнять какие-то действия
+}
+
+function doSomethingElse(): void {
+  return; // Явный return без значения
+}
+
+function handleClick(event: MouseEvent): void {
+  // Обработчик события, который не возвращает значения
+  event.preventDefault();
+  console.log("Клик!");
+}
+
+
+<br>
+Важные моменты:
+
+<br>Переменную типа&nbsp;void&nbsp;практически невозможно использовать, так как ей можно присвоить только значения&nbsp;null&nbsp;(если&nbsp;strictNullChecks&nbsp;выключен) или&nbsp;undefined.
+<br>void&nbsp;часто используется с анонимными функциями и колбэками, особенно в обработчиках событий.
+
+
+<br><br>Тип&nbsp;never&nbsp;используется для обозначения того, что функция&nbsp;никогда не завершается и не возвращает никакого значения. Это означает, что функция либо всегда выбрасывает исключение, либо входит в бесконечный цикл.<br> Когда использовать:<br>
+<br>Когда функция всегда выбрасывает исключение.
+<br>Когда функция входит в бесконечный цикл.
+<br>Когда функция должна быть недостижимой (например, в&nbsp;switch&nbsp;операторе, где обрабатываются все возможные значения).
+<br>Исключительно редко для переменных, чаще для функций.
+function throwError(message: string): never {
+  throw new Error(message); // Функция всегда выбрасывает исключение
+}
+
+function infiniteLoop(): never {
+  while (true) {
+    // Функция входит в бесконечный цикл
+  }
+}
+
+function processValue(value: string | number): string {
+  if (typeof value === "string") {
+    return value.toUpperCase();
+  } else if (typeof value === "number") {
+    return value.toFixed(2);
+  } else {
+    // Если мы дошли до этого места, значит, что-то пошло не так,
+    // так как value должен быть либо string, либо number.
+    // Функция должна быть недостижимой.
+    throw new Error("Недопустимый тип данных!");
+  }
+}
+
+function fail(message: string): never {
+    throw new Error(message);
+}
+
+function example(x: string | number) {
+    if (typeof x === "string") {
+        // do something
+    } else if (typeof x === "number") {
+        // do something else
+    } else {
+        return fail("Argument must be a string or number");
+    }
+}
+
+
+<br>Важные моменты:<br>
+<br>never&nbsp;является подтипом всех других типов. Это означает, что&nbsp;never&nbsp;можно присвоить переменной любого типа.
+<br>Однако, переменной типа&nbsp;never&nbsp;нельзя присвоить никакое значение, кроме другого значения типа&nbsp;never.
+<br>Функция, возвращающая&nbsp;never, неявно прерывает поток выполнения программы.
+<br>Различия между&nbsp;void&nbsp;и&nbsp;never:<br>]]></description><link>Теория\Секция 2. React\TypeScript\void, never типы TypeScript.html</link><guid isPermaLink="false">Теория/Секция 2. React/TypeScript/void, never типы TypeScript.md</guid><pubDate>Sun, 23 Feb 2025 17:08:55 GMT</pubDate></item><item><title><![CDATA[Что такое Ветка]]></title><description><![CDATA[ 
  <br>Ветка (branch) в Git - это отдельная копия проекта, которая позволяет разработчикам работать над своими изменениями независимо друг от друга, не мешая работе других.<br>Представьте ветку как отдельную ветвь на дереве. Она начинается от общей основы проекта, но может развиваться в своем собственном направлении.<br>Зачем нужны ветки?<br>
 <br>Параллельная разработка:&nbsp;Разработчики могут создавать ветки для работы над новыми функциями, исправлением ошибок или экспериментами, не влияя на основную ветку проекта.
 <br>Эксперименты:&nbsp;Ветка позволяет попробовать новые идеи, внести изменения и посмотреть, как они работают, не боясь испортить основную версию проекта.
