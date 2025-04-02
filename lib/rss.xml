@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RMP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>RMP</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Apr 2025 15:39:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Apr 2025 15:39:22 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Практика №0. Простое использование JS в консоли браузера]]></title><description><![CDATA[<a class="tag" href="?query=tag:ТемаОсновы" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаОсновы</a> <a class="tag" href="?query=tag:Задание" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Задание</a> 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RMP]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>RMP</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 02 Apr 2025 16:17:27 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 02 Apr 2025 16:17:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Практика №0. Простое использование JS в консоли браузера]]></title><description><![CDATA[<a class="tag" href="?query=tag:ТемаОсновы" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ТемаОсновы</a> <a class="tag" href="?query=tag:Задание" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Задание</a> 
  <br>Так как JS, в первую очередь, используется в браузере, то самое очевидное место где можно сразу опробовать этот язык - браузер.<br>В браузерах обычно есть консоль разработчика, где, собственно, используется JS.<br><a data-href="Как открыть консоль разработчика в браузерах" href="Как сделать\Как открыть консоль разработчика в браузерах.html" class="internal-link" target="_self" rel="noopener nofollow">Как открыть консоль разработчика в браузерах</a><br>Давайте попробуем немного поиграться.<br>Вот несколько примеров кодов, которые можно ввести в консоль разработчика браузера:<br>// Вывести сообщение в консоль
 console.log('Hello world!');
 
@@ -5805,26 +5805,28 @@ git log --oneline
 <br>Для начинающих разработчиков:&nbsp;Для обучения, практики и создания портфолио.
 <br><a data-href="Как создать удаленный репозиторий (GitHub)" href="Как сделать\Git и GitHub\Как создать удаленный репозиторий (GitHub).html" class="internal-link" target="_self" rel="noopener nofollow">Как создать удаленный репозиторий (GitHub)</a>]]></description><link>Теория\Секция 2. React\VCS\GitHub.html</link><guid isPermaLink="false">Теория/Секция 2. React/VCS/GitHub.md</guid><pubDate>Wed, 08 Jan 2025 16:50:58 GMT</pubDate></item><item><title><![CDATA[Нативные компоненты React Native]]></title><description><![CDATA[ 
  <br>Одной из ключевых особенностей React Native является его способность взаимодействовать с нативными компонентами, которые являются базовыми строительными блоками пользовательского интерфейса в iOS и Android. <br>Нативные компоненты — это элементы пользовательского интерфейса, которые напрямую взаимодействуют с платформой, на которой запущено приложение. Например, кнопка в React Native не является просто HTML-элементом или абстракцией, созданной в JavaScript. Вместо этого она представляет собой обертку над реальной кнопкой, которая существует в системе iOS или Android. Это означает, что кнопка будет выглядеть и вести себя так же, как любая другая кнопка на устройстве пользователя.<br>Когда вы создаете интерфейс в React Native, вы фактически работаете с этими нативными компонентами через JavaScript. React Native предоставляет мост, который позволяет JavaScript-коду взаимодействовать с нативным кодом. Этот мост переводит ваши React-компоненты в соответствующие нативные элементы, которые затем отображаются на экране устройства.<br>Вот несколько примеров:<br>
-<br>View как замена &lt;div&gt;
-- Это универсальный контейнер, который используется для группировки других компонентов.
-- Аналогично `&lt;div&gt;` в HTML, но без семантической нагрузки.
-```jsx
-
-import { View } from 'react-native';
-<br>const App = () =&gt; {<br>
-return (<br>
-&lt;View style={{ flex: 1, backgroundColor: 'lightblue' }}&gt;<br>
-{/ Дочерние компоненты /}<br>
 <br>
-);<br>
-};<br>
-2. **`Text` как замена `&lt;p&gt;` или `&lt;span&gt;`**
+View как замена &lt;div&gt;
 
-- Компонент для отображения текста.
-- Все текстовые элементы в React Native должны быть обернуты в `&lt;Text&gt;`.
+<br>Это универсальный контейнер, который используется для группировки других компонентов.
+<br>Аналогично &lt;div&gt; в HTML, но без семантической нагрузки.
 
-```jsx
-import { Text } from 'react-native';
+
+<br>import { View } from 'react-native';
+
+const App = () =&gt; {
+  return (
+    &lt;View style={{ flex: 1, backgroundColor: 'lightblue' }}&gt;
+      {/* Дочерние компоненты */}
+    &lt;/View&gt;
+  );
+};
+<br>
+<br>Text как замена &lt;p&gt; или &lt;span&gt;
+<br>
+<br>Компонент для отображения текста.
+<br>Все текстовые элементы в React Native должны быть обернуты в &lt;Text&gt;.
+<br>import { Text } from 'react-native';
 
 const App = () =&gt; {
   return &lt;Text style={{ fontSize: 20, color: 'darkblue' }}&gt;Привет, мир!&lt;/Text&gt;;
@@ -5845,7 +5847,7 @@ const App = () =&gt; {
     &lt;/TouchableOpacity&gt;
   );
 };
-]]></description><link>Теория\Секция 3. React Native\Нативные компоненты React Native.html</link><guid isPermaLink="false">Теория/Секция 3. React Native/Нативные компоненты React Native.md</guid><pubDate>Wed, 02 Apr 2025 15:04:23 GMT</pubDate></item><item><title><![CDATA[Обработка событий React Native]]></title><description><![CDATA[ 
+]]></description><link>Теория\Секция 3. React Native\Нативные компоненты React Native.html</link><guid isPermaLink="false">Теория/Секция 3. React Native/Нативные компоненты React Native.md</guid><pubDate>Wed, 02 Apr 2025 16:16:51 GMT</pubDate></item><item><title><![CDATA[Обработка событий React Native]]></title><description><![CDATA[ 
  <br>Обработка событий в React Native — это ключевой аспект разработки приложений, поскольку она позволяет взаимодействовать с пользователем. React Native предоставляет механизмы для обработки событий, которые похожи на те, что используются в веб-разработке с React, но адаптированы для мобильных платформ.<br>Когда вы создаете интерфейс в React Native, вы часто работаете с компонентами, такими как кнопки, текстовые поля или жесты. Каждый из этих компонентов может реагировать на действия пользователя, например, нажатия, свайпы или ввод текста. Чтобы обработать такие события, вы привязываете функции-обработчики к соответствующим свойствам компонентов.<br>Например, рассмотрим простую кнопку. В React Native у кнопки есть свойство onPress, которое позволяет определить, что должно произойти, когда пользователь нажмет на нее. Вы можете передать в это свойство функцию, которая будет выполняться при нажатии. Предположим, мы хотим вывести сообщение в консоль при нажатии на кнопку:<br>import React from 'react';
 import { Button, View } from 'react-native';
 
